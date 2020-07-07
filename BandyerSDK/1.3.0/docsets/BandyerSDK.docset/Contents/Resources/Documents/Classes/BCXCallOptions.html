@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BCXCallOptions Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BCXCallOptions" class="dashAnchor"></a>
+    <a title="BCXCallOptions Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">BandyerSDK Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">BandyerSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BCXCallOptions Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BCXCallOptions.html">BCXCallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewController.html">BDKCallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewControllerConfiguration.html">BDKCallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKConfig.html">BDKConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKEnvironment.html">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKIncomingCallHandlingIntent.html">BDKIncomingCallHandlingIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKJoinURLIntent.html">BDKJoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKMakeCallIntent.html">BDKMakeCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKUserInfoDisplayItem.html">BDKUserInfoDisplayItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kBCXErrorDomain">kBCXErrorDomain</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BCHChatClientState.html">BCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallClientState.html">BCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallDirection.html">BCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallEndReason.html">BCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallParticipantState.html">BCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallState.html">BCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallType.html">BCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXDeclineReason.html">BCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXErrorCode.html">BCXErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXUserStatus.html">BCXUserStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallType.html">BDKCallType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BCHChatClient.html">BCHChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCHChatClientObserver.html">BCHChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXAction.html">BCXAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCall.html">BCXCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallClient.html">BCXCallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallClientObserver.html">BCXCallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallObserver.html">BCXCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipant.html">BCXCallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipants.html">BCXCallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipantsObserver.html">BCXCallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallRegistry.html">BCXCallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallRegistryObserver.html">BCXCallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXHandleProvider.html">BCXHandleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXUser.html">BCXUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDFUser.html">BDFUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallViewControllerDelegate.html">BDKCallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKIntent.html">BDKIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKUserInfoFetcher.html">BDKUserInfoFetcher</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCHChatClient.h@T@BCHChatClientState">BCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallClient.h@T@BCXCallClientState">BCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallDirection">BCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallEndReason">BCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallParticipant.h@T@BCXCallParticipantState">BCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallState">BCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallType">BCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXDeclineReason">BCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXError.h@T@BCXErrorCode">BCXErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXUser.h@T@BCXUserStatus">BCXUserStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKMakeCallIntent.h@T@BDKCallType">BDKCallType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCHChatClientState">NSStringFromBCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallClientState">NSStringFromBCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallDirection">NSStringFromBCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallEndReason">NSStringFromBCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallParticipantState">NSStringFromBCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallState">NSStringFromBCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallType">NSStringFromBCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXDeclineReason">NSStringFromBCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXUserStatus">NSStringFromBCXUserStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CallBannerController.html">CallBannerController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallBannerView.html">CallBannerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageNotificationController.html">MessageNotificationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageNotificationControllerConfiguration.html">MessageNotificationControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CallBannerControllerDelegate.html">CallBannerControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessageNotificationControllerDelegate.html">MessageNotificationControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BCXCallOptions</h1>
+            <p>A value object representing the options used when creating a call.</p>
+
+<p>This is a value object so instances can be checked for equality.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <a href="#/Properties">
+                  <h3 class="section-name">Properties</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(py)recording"></a>
+                    <a name="//apple_ref/swift/Property/recording" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(py)recording">recording</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A flag indicating whether recording is enabled or not</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(py)duration"></a>
+                    <a name="//apple_ref/swift/Property/duration" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(py)duration">duration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The maximum duration in seconds for the call, if nil the call will end when all participants leave</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Call%20type"></a>
+                <a name="//apple_ref/swift/Section/Call type" class="dashAnchor"></a>
+                <a href="#/Call%20type">
+                  <h3 class="section-name">Call type</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(py)callType"></a>
+                    <a name="//apple_ref/swift/Property/callType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(py)callType">callType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The call type.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(im)isAudioVideo"></a>
+                    <a name="//apple_ref/swift/Method/-isAudioVideo" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(im)isAudioVideo">-isAudioVideo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a flag indicating whether the call type is audio / video, or not.</p>
+
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a flag indicating whether the call type is audio / video, or not.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(im)isAudioUpgradable"></a>
+                    <a name="//apple_ref/swift/Method/-isAudioUpgradable" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(im)isAudioUpgradable">-isAudioUpgradable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a flag indicating whether the call type is audio upgradable, or not.</p>
+
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a flag indicating whether the call type is audio upgradable, or not.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(im)isAudioOnly"></a>
+                    <a name="//apple_ref/swift/Method/-isAudioOnly" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(im)isAudioOnly">-isAudioOnly</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a flag indicating whether the call type is audio only, or not.</p>
+
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a flag indicating whether the call type is audio only, or not.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Copy"></a>
+                <a name="//apple_ref/swift/Section/Copy" class="dashAnchor"></a>
+                <a href="#/Copy">
+                  <h3 class="section-name">Copy</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(im)optionsWithRecording:"></a>
+                    <a name="//apple_ref/swift/Method/-optionsWithRecording:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(im)optionsWithRecording:">-optionsWithRecording:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new call options instance copying the receiver and updating its recording flag with the value provided as argument.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recording</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A flag indicating whether recording should be enabled or not.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a copy of the receiver with recording flag set to the argument provided.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(im)optionsWithDuration:"></a>
+                    <a name="//apple_ref/swift/Method/-optionsWithDuration:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(im)optionsWithDuration:">-optionsWithDuration:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new call options instance copying the receiver and updating its duration value with the value provided as argument.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The duration of the call.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a copy of the receiver with the duration value set to the argument provided.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(im)optionsWithCallType:"></a>
+                    <a name="//apple_ref/swift/Method/-optionsWithCallType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(im)optionsWithCallType:">-optionsWithCallType:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new call options instance copying the receiver and updating its call type value with the value provided as argument.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a copy of the receiver with the call type value set to the argument provided.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialization"></a>
+                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
+                <a href="#/Initialization">
+                  <h3 class="section-name">Initialization</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(cm)optionsWithRecording:"></a>
+                    <a name="//apple_ref/swift/Method/+optionsWithRecording:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(cm)optionsWithRecording:">+optionsWithRecording:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an option instance setting the recording option, and the call type to <code>BCXCallTypeAudioVideo</code>.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recording</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A flag indicating whether the call should be recorded or not.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An option instance with the recording flag set to the value provided, and call type set to <code>BCXCallTypeAudioVideo</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(cm)optionsWithDuration:"></a>
+                    <a name="//apple_ref/swift/Method/+optionsWithDuration:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(cm)optionsWithDuration:">+optionsWithDuration:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an option instance setting the maximum duration for a call in seconds, and the call type to <code>BCXCallTypeAudioVideo</code>.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum duration in seconds for the call.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An option instance with maximum duration for the call set, and call type set to <code>BCXCallTypeAudioVideo</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(cm)optionsWithCallType:"></a>
+                    <a name="//apple_ref/swift/Method/+optionsWithCallType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(cm)optionsWithCallType:">+optionsWithCallType:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an option instance setting the call type to the value provided as argument.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An option instance with call type set to value provided as argument.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(cm)optionsWithRecording:duration:"></a>
+                    <a name="//apple_ref/swift/Method/+optionsWithRecording:duration:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(cm)optionsWithRecording:duration:">+optionsWithRecording:duration:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an option instance specifying whether call recording should be enabled or not,
+the maximum duration for the call in seconds, and the call type to <code>BCXCallTypeAudioVideo</code>.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recording</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A flag indicating whether the call should be recorded or not.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum duration in seconds for the call.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An option instance with the recording flag set and with maximum duration for the call set, and call type set to <code>BCXCallTypeAudioVideo</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(cm)optionsWithRecording:duration:callType:"></a>
+                    <a name="//apple_ref/swift/Method/+optionsWithRecording:duration:callType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(cm)optionsWithRecording:duration:callType:">+optionsWithRecording:duration:callType:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an option instance specifying whether call recording should be enabled or not,
+the maximum duration for the call in seconds, and the call type.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recording</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A flag indicating whether the call should be recorded or not.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum duration in seconds for the call.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An option instance with the recording flag set, with maximum duration for the call set, and call type set to the values provided.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(cm)optionsFromOptions:withRecording:"></a>
+                    <a name="//apple_ref/swift/Method/+optionsFromOptions:withRecording:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(cm)optionsFromOptions:withRecording:">+optionsFromOptions:withRecording:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a copy of the <code>options</code> provided as argument, using the recording flag provided as second argument.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The options to copy.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recording</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A flag indicating whether the call should be recorded or not.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A copy of the <code>options</code> provided, using the recording flag provided as argument.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(cm)optionsFromOptions:withDuration:"></a>
+                    <a name="//apple_ref/swift/Method/+optionsFromOptions:withDuration:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(cm)optionsFromOptions:withDuration:">+optionsFromOptions:withDuration:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a copy of the <code>options</code> provided as argument, using the duration provided as second argument.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The options to copy.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum duration in seconds for the call.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A copy of the <code>options</code> provided, using the duration provided as argument.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BCXCallOptions(cm)optionsFromOptions:withCallType:"></a>
+                    <a name="//apple_ref/swift/Method/+optionsFromOptions:withCallType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BCXCallOptions(cm)optionsFromOptions:withCallType:">+optionsFromOptions:withCallType:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a copy of the <code>options</code> provided as argument, using the call type provided as second argument.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The options to copy.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A copy of the <code>options</code> provided, using the call type flag provided as argument.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://bandyer.com" target="_blank" rel="external">Bandyer s.r.l.</a>. All rights reserved. (Last updated: 2019-11-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

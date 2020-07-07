@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BCXCallState Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/BCXCallState" class="dashAnchor"></a>
+    <a title="BCXCallState Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BCXCallState Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BCXCallOptions.html">BCXCallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewController.html">BDKCallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewControllerConfiguration.html">BDKCallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKConfig.html">BDKConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKEnvironment.html">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKIncomingCallHandlingIntent.html">BDKIncomingCallHandlingIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKJoinURLIntent.html">BDKJoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKMakeCallIntent.html">BDKMakeCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKUserInfoDisplayItem.html">BDKUserInfoDisplayItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kBCXErrorDomain">kBCXErrorDomain</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BCHChatClientState.html">BCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallClientState.html">BCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallDirection.html">BCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallEndReason.html">BCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallParticipantState.html">BCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallState.html">BCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallType.html">BCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXDeclineReason.html">BCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXErrorCode.html">BCXErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXUserStatus.html">BCXUserStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallType.html">BDKCallType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BCHChatClient.html">BCHChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCHChatClientObserver.html">BCHChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXAction.html">BCXAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCall.html">BCXCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallClient.html">BCXCallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallClientObserver.html">BCXCallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallObserver.html">BCXCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipant.html">BCXCallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipants.html">BCXCallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipantsObserver.html">BCXCallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallRegistry.html">BCXCallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallRegistryObserver.html">BCXCallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXHandleProvider.html">BCXHandleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXUser.html">BCXUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDFUser.html">BDFUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallViewControllerDelegate.html">BDKCallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKIntent.html">BDKIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKUserInfoFetcher.html">BDKUserInfoFetcher</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCHChatClient.h@T@BCHChatClientState">BCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallClient.h@T@BCXCallClientState">BCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallDirection">BCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallEndReason">BCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallParticipant.h@T@BCXCallParticipantState">BCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallState">BCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallType">BCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXDeclineReason">BCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXError.h@T@BCXErrorCode">BCXErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXUser.h@T@BCXUserStatus">BCXUserStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKMakeCallIntent.h@T@BDKCallType">BDKCallType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCHChatClientState">NSStringFromBCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallClientState">NSStringFromBCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallDirection">NSStringFromBCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallEndReason">NSStringFromBCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallParticipantState">NSStringFromBCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallState">NSStringFromBCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallType">NSStringFromBCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXDeclineReason">NSStringFromBCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXUserStatus">NSStringFromBCXUserStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CallBannerController.html">CallBannerController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallBannerView.html">CallBannerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageNotificationController.html">MessageNotificationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageNotificationControllerConfiguration.html">MessageNotificationControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CallBannerControllerDelegate.html">CallBannerControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessageNotificationControllerDelegate.html">MessageNotificationControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BCXCallState</h1>
+            <p>An enumeration representing the states a call can be in.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateIdle"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateIdle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateIdle">BCXCallStateIdle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The initial state.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateDialing"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateDialing" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateDialing">BCXCallStateDialing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call is in dialing state, that is call has started and is waiting for anyone to answer.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateRinging"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateRinging" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateRinging">BCXCallStateRinging</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call is in ringing state when somebody called you and you didn&rsquo;t answered or declined it yet.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateAnswering"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateAnswering" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateAnswering">BCXCallStateAnswering</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call is in answering state when you are answering the call and the server didn&rsquo;t ack you yet.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateDeclining"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateDeclining" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateDeclining">BCXCallStateDeclining</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call is in declining state when you are declining the call and the server didn&rsquo;t ack you yet.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateHangingUp"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateHangingUp" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateHangingUp">BCXCallStateHangingUp</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call is in hanging up state when you are hanging up the call and the server didn&rsquo;t ack you yet.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateConnecting"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateConnecting" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateConnecting">BCXCallStateConnecting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call is in connecting state, when it is connecting to the host server.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateConnected"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateConnected" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateConnected">BCXCallStateConnected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call is in connected state, when it is connected to the host server.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateEnded"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateEnded" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateEnded">BCXCallStateEnded</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call is in ended state, when it has ended.</p>
+
+<blockquote>
+<p>This is a final state.</p>
+</blockquote>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@BCXCallState@BCXCallStateFailed"></a>
+                    <a name="//apple_ref/swift/Case/BCXCallStateFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@BCXCallState@BCXCallStateFailed">BCXCallStateFailed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call is in failed state, when it has failed.</p>
+
+<blockquote>
+<p>This is a final state.</p>
+</blockquote>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://bandyer.com" target="_blank" rel="external">Bandyer s.r.l.</a>. All rights reserved. (Last updated: 2019-10-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BDKConfig Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BDKConfig" class="dashAnchor"></a>
+    <a title="BDKConfig Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BDKConfig Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BCXCallOptions.html">BCXCallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewController.html">BDKCallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewControllerConfiguration.html">BDKCallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKConfig.html">BDKConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKEnvironment.html">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKIncomingCallHandlingIntent.html">BDKIncomingCallHandlingIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKJoinURLIntent.html">BDKJoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKMakeCallIntent.html">BDKMakeCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKUserInfoDisplayItem.html">BDKUserInfoDisplayItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kBCXErrorDomain">kBCXErrorDomain</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BCHChatClientState.html">BCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallClientState.html">BCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallDirection.html">BCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallEndReason.html">BCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallParticipantState.html">BCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallState.html">BCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallType.html">BCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXDeclineReason.html">BCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXErrorCode.html">BCXErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXUserStatus.html">BCXUserStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallType.html">BDKCallType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BCHChatClient.html">BCHChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCHChatClientObserver.html">BCHChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXAction.html">BCXAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCall.html">BCXCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallClient.html">BCXCallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallClientObserver.html">BCXCallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallObserver.html">BCXCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipant.html">BCXCallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipants.html">BCXCallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipantsObserver.html">BCXCallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallRegistry.html">BCXCallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallRegistryObserver.html">BCXCallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXHandleProvider.html">BCXHandleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXUser.html">BCXUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDFUser.html">BDFUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallViewControllerDelegate.html">BDKCallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKIntent.html">BDKIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKUserInfoFetcher.html">BDKUserInfoFetcher</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCHChatClient.h@T@BCHChatClientState">BCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallClient.h@T@BCXCallClientState">BCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallDirection">BCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallEndReason">BCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallParticipant.h@T@BCXCallParticipantState">BCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallState">BCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXCallType">BCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXCallTypes.h@T@BCXDeclineReason">BCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXError.h@T@BCXErrorCode">BCXErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BCXUser.h@T@BCXUserStatus">BCXUserStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKMakeCallIntent.h@T@BDKCallType">BDKCallType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCHChatClientState">NSStringFromBCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallClientState">NSStringFromBCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallDirection">NSStringFromBCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallEndReason">NSStringFromBCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallParticipantState">NSStringFromBCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallState">NSStringFromBCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallType">NSStringFromBCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXDeclineReason">NSStringFromBCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXUserStatus">NSStringFromBCXUserStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CallBannerController.html">CallBannerController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallBannerView.html">CallBannerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageNotificationController.html">MessageNotificationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageNotificationControllerConfiguration.html">MessageNotificationControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CallBannerControllerDelegate.html">CallBannerControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessageNotificationControllerDelegate.html">MessageNotificationControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BDKConfig</h1>
+            <p>A class encapsulating the configuration options for the bandyer sdk.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Customization"></a>
+                <a name="//apple_ref/swift/Section/Customization" class="dashAnchor"></a>
+                <a href="#/Customization">
+                  <h3 class="section-name">Customization</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)userInfoFetcher"></a>
+                    <a name="//apple_ref/swift/Property/userInfoFetcher" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)userInfoFetcher">userInfoFetcher</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The user info fetcher instance that is going to be used whenever the sdk needs
+to show any user information like hers/his first name, last name and so on.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Environment"></a>
+                <a name="//apple_ref/swift/Section/Environment" class="dashAnchor"></a>
+                <a href="#/Environment">
+                  <h3 class="section-name">Environment</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)environment"></a>
+                    <a name="//apple_ref/swift/Property/environment" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)environment">environment</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The environment where the module will run (e.g production, sandbox, and so on&hellip;).</p>
+
+<p>Defaults to production.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/CallKit"></a>
+                <a name="//apple_ref/swift/Section/CallKit" class="dashAnchor"></a>
+                <a href="#/CallKit">
+                  <h3 class="section-name">CallKit</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)callKitEnabled"></a>
+                    <a name="//apple_ref/swift/Property/callKitEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)callKitEnabled">callKitEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A flag indicating whether CallKit should be enabled or disabled.
+If the system supports CallKit (i.e iOS &gt;= 10.0), this flag will be enabled in the default configuration.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)supportedHandleTypes"></a>
+                    <a name="//apple_ref/swift/Property/supportedHandleTypes" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)supportedHandleTypes">supportedHandleTypes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A set containing which <code>CXHandleType</code> your app supports.</p>
+
+<p>The default value is a set containing <code>CXHandleTypeGeneric</code> value only.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)nativeUILocalizedName"></a>
+                    <a name="//apple_ref/swift/Property/nativeUILocalizedName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)nativeUILocalizedName">nativeUILocalizedName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The localized name of your app that will be shown in the native System UI when a call is being performed.</p>
+
+<p>The default value is the CFBundleDisplayName value found in your app Info.plist file or the CFBundleName value
+ if the former is not available.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)nativeUIRingToneSound"></a>
+                    <a name="//apple_ref/swift/Property/nativeUIRingToneSound" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)nativeUIRingToneSound">nativeUIRingToneSound</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The name of the sound resource in the app bundle to be used as ringtone when a call is received.</p>
+
+<p>The default value is nil, meaning the system default ringtone will be used.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)nativeUITemplateIconImageData"></a>
+                    <a name="//apple_ref/swift/Property/nativeUITemplateIconImageData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)nativeUITemplateIconImageData">nativeUITemplateIconImageData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The PNG data for the icon image that will displayed in the native System UI for the button which takes the user from the system UI to
+ your app. The icon image must be a square with side length of 40 points. The alpha channel of the image is used to create a white image
+ mask.</p>
+
+<p>Beware, you should provide the image as a NSData object, not an UIImage object.
+ Take a look at <code>UIImagePNGRepresentation</code> function documentation for more info
+ about transforming an UIImage to a NSData object representation.</p>
+
+<p>The default value is nil, meaning that the native UI will use a placeholder. It is highly recommended to provide an image.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)handleProvider"></a>
+                    <a name="//apple_ref/swift/Property/handleProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)handleProvider">handleProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An object conforming to <code><a href="../Protocols/BCXHandleProvider.html">BCXHandleProvider</a></code> protocol that will be used by the module when a CXHandle object must be created.</p>
+
+<p>The default value, is an dummy object that returns the user aliases provided as the value of a <code>CXHandle</code> object with <code>CXHandleTypeGeneric</code> type.
+ This means that the native System UI will show user aliases as caller or callee user names.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/VoIP%20push%20notifications"></a>
+                <a name="//apple_ref/swift/Section/VoIP push notifications" class="dashAnchor"></a>
+                <a href="#/VoIP%20push%20notifications">
+                  <h3 class="section-name">VoIP push notifications</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)notificationPayloadKeyPath"></a>
+                    <a name="//apple_ref/swift/Property/notificationPayloadKeyPath" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)notificationPayloadKeyPath">notificationPayloadKeyPath</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The keypath the sdk will search for the Bandyer notification payload in the push notification received from APNS.</p>
+
+<p>You must provide a valid keyPath before initializing the sdk. Failing to do so will crash your app.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(py)pushRegistryDelegate"></a>
+                    <a name="//apple_ref/swift/Property/pushRegistryDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(py)pushRegistryDelegate">pushRegistryDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An object conforming to <code>PKPushRegistryDelegate</code> protocol that will be notified when the voip push token has been updated.</p>
+
+<p>You must provide a valid object before initializing the sdk.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Logging"></a>
+                <a name="//apple_ref/swift/Section/Logging" class="dashAnchor"></a>
+                <a href="#/Logging">
+                  <h3 class="section-name">Logging</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(cpy)logLevel"></a>
+                    <a name="//apple_ref/swift/Property/logLevel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(cpy)logLevel">logLevel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This property sets the logging level for the module. If you want to turn on logging facilities you can set this value to one of the
+logging levels specified in the bandyer&rsquo;s foundation framework (e.g. BDFDDLogLevelError, BDFDDLogLevelWarning and so on&hellip;).
+If you want to turn off logging you can pass <code>BDFDDLogLevelOff</code> value.
+The default value for this flag is <code>BDFDDLogLevelOff</code>.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(cpy)logContext"></a>
+                    <a name="//apple_ref/swift/Property/logContext" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(cpy)logContext">logContext</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The log context for the module, any logging statement generated from the module is tagged with this value. You can use it to filter out
+every logging statement coming from this module for example. Its value is 5831270</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(cpy)logTag"></a>
+                    <a name="//apple_ref/swift/Property/logTag" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(cpy)logTag">logTag</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The log tag for the module, any logging statement generated from the module is tagged with this value.
+It&rsquo;s a human readable string printed with each messages. Its value is <q>BandyerSDK</q></p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(cm)setLog:"></a>
+                    <a name="//apple_ref/swift/Method/+setLog:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(cm)setLog:">+setLog:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the log object responsible for logging log messages to loggers.
+The default log object is the <code>[BDFDDLog sharedInstance]</code> logging in console.
+(i.e. the logger added to the log object is the<code>[BDFDDASLLogger sharedInstance]</code>).</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>log</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the log object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(cm)addLogger:"></a>
+                    <a name="//apple_ref/swift/Method/+addLogger:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(cm)addLogger:">+addLogger:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds the <code>logger</code> to the current log object.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>logger</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the logger to be added.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(cm)removeLogger:"></a>
+                    <a name="//apple_ref/swift/Method/+removeLogger:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(cm)removeLogger:">+removeLogger:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes the <code>logger</code> from the current log object.</p>
+
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>logger</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the logger to be removed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialization"></a>
+                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
+                <a href="#/Initialization">
+                  <h3 class="section-name">Initialization</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(im)init"></a>
+                    <a name="//apple_ref/swift/Method/-init" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(im)init">-init</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a default configuration instance with default values set, for <q>Production</q> environment.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    The default environment is production.
+
+</div>
+
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A default configuration instance.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)BDKConfig(cm)new"></a>
+                    <a name="//apple_ref/swift/Method/+new" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)BDKConfig(cm)new">+new</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a default configuration instance with default values set, for <q>Production</q> environment.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    The default environment is production.
+
+</div>
+
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A default configuration instance.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://bandyer.com" target="_blank" rel="external">Bandyer s.r.l.</a>. All rights reserved. (Last updated: 2019-10-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

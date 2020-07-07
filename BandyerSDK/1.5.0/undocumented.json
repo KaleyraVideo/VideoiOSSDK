@@ -1,0 +1,40 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/marco/Workspace/AppCode/Bandyer-iOS/Source/Foundation/Components/Timers/RunLoopTimer.swift",
+      "line": 28,
+      "symbol": "Foundation.Timer.interval",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/marco/Workspace/AppCode/Bandyer-iOS/Source/SDK/InAppNotification/BDKChatNotification.h",
+      "line": 24,
+      "symbol": "BCHChatNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/marco/Workspace/AppCode/Bandyer-iOS/Source/SDK/UI/FileShare/Service/Channel/FileChannelService.swift",
+      "line": 117,
+      "symbol": "FileChannelService.channelDidConnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/marco/Workspace/AppCode/Bandyer-iOS/Source/SDK/UI/FileShare/Service/Channel/FileChannelService.swift",
+      "line": 121,
+      "symbol": "FileChannelService.channelDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/marco/Workspace/AppCode/Bandyer-iOS/Source/SDK/UI/FileShare/Service/Channel/FileChannelService.swift",
+      "line": 125,
+      "symbol": "FileChannelService.channel(_:didEncounterError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/marco/Workspace/AppCode/Bandyer-iOS"
+}

@@ -1,0 +1,12 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/marco/Workspace/AppCode/Bandyer-iOS/Source/Chat/UI/Channel/ChannelViewController.swift",
+      "line": 693,
+      "symbol": "ChannelViewController.presentationControllerDidDismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/marco/Workspace/AppCode/Bandyer-iOS"
+}
