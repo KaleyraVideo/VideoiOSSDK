@@ -4,7 +4,7 @@
 
 [![Cocoapods compatible](https://img.shields.io/cocoapods/v/Bandyer)](https://cocoapods.org/pods/Bandyer)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/1.4.0/index.html)
+[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/1.5.0/index.html)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=bandyersrl)
 
 Bandyer is an in-cloud collaborative solution for corporates, featuring a rich set of tools for enabling videoconferencing in your product. The BandyerSDK for iOS makes it easy to embed one to one, many to many high-quality voice and video calls into your mobile app, with a seamless integration with the iOS operating system. It features a fully fledged set of collaborative tools comprehensive of messaging, screen sharing, remote snapshot, collaborative interactive board and call recording capabilities. 
@@ -28,17 +28,18 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 - Call from URL
 - Call recording
 - Chat
-- Seamless integration with CallKit
+- Seamless integration with iOS call UI
 - Interactive collaborative space
 - Remote camera snapshot
 - Ready to use UI
 - In-app notification banner
 - In-app call banner
 - In-app Screensharing (iOS 13.0 and later only)
+- Filesharing
 
 ## Latest version
 
-BandyerSDK 1.4.0 version is the latest version. It features in-app screensharing on devices running iOS 13.0 and later. Beware the screensharing feature can record the app's main window only, moreover it won't record anything outside your app (this feature might be added in a future release). 
+BandyerSDK 1.5.0 version is the latest version. It features in-call filesharing
 
 ## Installation
 
@@ -71,42 +72,7 @@ $ pod install
 
 ## Getting started
 
-To begin making calls to the Bandyer platform, you need first to obtain credentials for your app. In order to do so, you must contact our sales department. Head over to our [website](https://www.bandyer.com) or contact us at [info@bandyer.com](mailto:info@bandyer.com) to get your credentials. Once you obtained your credentials head over to our [wiki page](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki) where you'll find a comprehensive set of guides that will help you integrate the BandyerSDK in your iOS app. 
-
-Here's a list of the guides you'll find in our wiki:
-
-### Introduction
-[Home](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki)
-
-### Getting started
-[Get your credentials](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Get-your-credentials)
-
-[Requirements](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Requirements)
-
-[Installation](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Installation)
-
-[Device permissions](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Device-Permissions)
-
-[Basic integration](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Getting-Started)
-
-### Making and receiving calls
-[Call client lifecycle](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Call-client-lifecycle)
-
-[Making an outgoing call](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Making-an-outgoing-call)
-
-[Receiving an incoming call](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Receiving-an-incoming-call)
-
-### Advanced topics
-[Customizing user information](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Customizing-user-information) 
-
-[CallKit](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/CallKit)
-
-[VoIP notifications](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/VOIP-notifications)
-
-[Call from URL](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Call-from-URL)
-
-### Migration guides
-[Migrating from 1.1.x to 1.2.0](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/MigrationGuide-from-1.1.1-to-1.2.0)
+To begin making calls to the Bandyer platform, you need first to obtain credentials for your app. In order to do so, you must contact our sales department. Head over to our [website][bandyer-website] or contact us at [info@bandyer.com](mailto:info@bandyer.com) to get your credentials. Once you obtained your credentials head over to our [wiki page][wiki] where you'll find a comprehensive set of guides that will help you integrate the BandyerSDK in your iOS app. 
 
 ## Documentation
 
@@ -121,7 +87,7 @@ You can find several sample apps showing you the BandyerSDK capabilities and fea
 
 ## Looking for other platforms?
 
-If you're looking for the Android platform head over to our [Android repository][android] to get the latest SDK version. We also ship a Cordova plugin for Hybrid applications, head over to our [Cordova repository][cordova] to get our latest plugin version. 
+If you're looking for the Android platform head over to our [Android repository][android] to get the latest SDK version. We also ship a Cordova plugin for Hybrid applications, head over to our [Cordova repository][cordova] to get our latest plugin version. Even more, we ship a Xamarin binding suitable for Xamarin Native or Xamarin Forms apps, you can find it using NuGet, head over to our [Xamarin binding repository][xamarin] for more information. 
 
 ## Support
 
@@ -135,6 +101,7 @@ If you prefer commercial support, please contact [bandyer.com][bandyer-website] 
 - [Socket.IO-Client-Swift](https://github.com/socketio/socket.io-client-swift)
 - [Starscream](https://github.com/daltoniam/starscream)
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
+- [IGListKit](https://github.com/Instagram/IGListKit)
 
 [cocoapods]: https://cocoapods.org/
 [cocoapods-getting-started]: https://guides.cocoapods.org/using/getting-started.html
@@ -145,4 +112,5 @@ If you prefer commercial support, please contact [bandyer.com][bandyer-website] 
 [swift-samples]: https://github.com/Bandyer/Bandyer-iOS-SDK-Samples-Swift
 [android]: https://github.com/Bandyer/Bandyer-Android-SDK
 [cordova]: https://github.com/Bandyer/Bandyer-Cordova-Plugin
+[xamarin]: https://github.com/Bandyer/BandyerSDK-Xamarin-Bindings
 [issues]: https://github.com/Bandyer/Bandyer-iOS-SDK/issues
