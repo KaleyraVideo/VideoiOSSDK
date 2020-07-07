@@ -38,7 +38,7 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 
 ## Latest version
 
-BandyerSDK 1.2.0 version is our latest version featuring Chat and support for iOS 13. Please visit the [release notes](https://github.com/Bandyer/Bandyer-iOS-SDK/releases/tag/1.2.0) page for the complete list of changes. If you have integrated BandyerSDK in your app already, you should also take a look at our [migration guide](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/MigrationGuide-from-1.1.1-to-1.2.0).
+BandyerSDK 1.2.1 version is our latest version featuring Chat and support for iOS 13. Please visit the [release notes](https://github.com/Bandyer/Bandyer-iOS-SDK/releases/tag/1.2.1) page for the complete list of changes. If you have integrated BandyerSDK with any version below 1.2.0 in your app already, you should also take a look at our [migration guide](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/MigrationGuide-from-1.1.1-to-1.2.0).
 
 ## Installation
 
