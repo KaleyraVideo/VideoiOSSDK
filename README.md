@@ -4,7 +4,7 @@
 
 [![Cocoapods compatible](https://img.shields.io/cocoapods/v/Bandyer)](https://cocoapods.org/pods/Bandyer)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/1.2.0/index.html)
+[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/1.2.2/index.html)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=bandyersrl)
 
 
@@ -38,7 +38,7 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 
 ## Latest version
 
-BandyerSDK 1.2.1 version is our latest version featuring Chat and support for iOS 13. Please visit the [release notes](https://github.com/Bandyer/Bandyer-iOS-SDK/releases/tag/1.2.1) page for the complete list of changes. If you have integrated BandyerSDK with any version below 1.2.0 in your app already, you should also take a look at our [migration guide](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/MigrationGuide-from-1.1.1-to-1.2.0).
+BandyerSDK 1.2.2 version is our latest version featuring Chat and support for iOS 13. Please visit the [release notes](https://github.com/Bandyer/Bandyer-iOS-SDK/releases/tag/1.2.2) page for the complete list of changes. If you have integrated BandyerSDK with any version below 1.2.0 in your app already, you should also take a look at our [migration guide](https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/MigrationGuide-from-1.1.1-to-1.2.0).
 
 ## Installation
 
