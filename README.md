@@ -4,7 +4,7 @@
 
 [![Cocoapods compatible](https://img.shields.io/cocoapods/v/Bandyer)](https://cocoapods.org/pods/Bandyer)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/1.5.0/index.html)
+[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/1.6.0/index.html)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=bandyersrl)
 
 Bandyer is an in-cloud collaborative solution for corporates, featuring a rich set of tools for enabling videoconferencing in your product. The BandyerSDK for iOS makes it easy to embed one to one, many to many high-quality voice and video calls into your mobile app, with a seamless integration with the iOS operating system. It features a fully fledged set of collaborative tools comprehensive of messaging, screen sharing, remote snapshot, collaborative interactive board and call recording capabilities. 
@@ -39,11 +39,11 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 
 ## Latest version
 
-BandyerSDK 1.5.0 version is the latest version. It features in-call filesharing
+BandyerSDK 1.6.0 version is the latest version.
 
 ## Installation
 
-Several installation methods are supported. [CocoaPods][cocoapods] is the most straightforward way to add the SDK to your project. If you're new to CocoaPods, the website contains lots of helpful [documentation][cocoapods-getting-started].
+Several installation methods are supported. [CocoaPods][cocoapods] is the most straightforward way to add the SDK to your project. If you're new to CocoaPods, their website contains lots of helpful [documentation][cocoapods-getting-started]. [Carthage][carthage] is also supported, for futher information head over to our [installation guide][installation-guide].
 
 ### Cocoapods
 
@@ -105,6 +105,8 @@ If you prefer commercial support, please contact [bandyer.com][bandyer-website] 
 
 [cocoapods]: https://cocoapods.org/
 [cocoapods-getting-started]: https://guides.cocoapods.org/using/getting-started.html
+[carthage]: https://github.com/Carthage/Carthage
+[installation-guide]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Installation
 [bandyer-website]: https://www.bandyer.com
 [wiki]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki
 [documentation]: https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/latest/index.html
