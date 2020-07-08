@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CallWindowDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/CallWindowDelegate" class="dashAnchor"></a>
+    <a title="CallWindowDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 1.6.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CallWindowDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Categories.html">Categories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Categories/PKPushCredentials%28BCXAdditions%29.html">PKPushCredentials(BCXAdditions)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BCXCallOptions.html">BCXCallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewController.html">BDKCallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewControllerConfiguration.html">BDKCallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)BDKChatNotification">BDKChatNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKConfig.html">BDKConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKEnvironment.html">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)BDKFileShareNotification">BDKFileShareNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKIncomingCallHandlingIntent.html">BDKIncomingCallHandlingIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKJoinURLIntent.html">BDKJoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKMakeCallIntent.html">BDKMakeCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKUserInfoDisplayItem.html">BDKUserInfoDisplayItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallBannerController.html">CallBannerController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallBannerView.html">CallBannerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallPresentationErrorDomain.html">CallPresentationErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageNotificationController.html">MessageNotificationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageNotificationControllerConfiguration.html">MessageNotificationControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenDownloadsIntent.html">OpenDownloadsIntent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kBCXErrorDomain">kBCXErrorDomain</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BCHChatClientState.html">BCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallClientState.html">BCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallDirection.html">BCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallEndReason.html">BCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallParticipantState.html">BCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallState.html">BCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXCallType.html">BCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXDeclineReason.html">BCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXErrorCode.html">BCXErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BCXUserStatus.html">BCXUserStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallType.html">BDKCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKSpeakerHijackingStrategy.html">BDKSpeakerHijackingStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallPresentationErrorCode.html">CallPresentationErrorCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BCHChatClient.html">BCHChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCHChatClientObserver.html">BCHChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXAction.html">BCXAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCall.html">BCXCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallClient.html">BCXCallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallClientObserver.html">BCXCallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallObserver.html">BCXCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipant.html">BCXCallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipants.html">BCXCallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallParticipantsObserver.html">BCXCallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallRegistry.html">BCXCallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXCallRegistryObserver.html">BCXCallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXHandleProvider.html">BCXHandleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BCXUser.html">BCXUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDFUser.html">BDFUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallViewControllerDelegate.html">BDKCallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKInAppChatNotificationTouchListener.html">BDKInAppChatNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKInAppFileShareNotificationTouchListener.html">BDKInAppFileShareNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKInAppNotificationsCoordinator.html">BDKInAppNotificationsCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKIntent.html">BDKIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKUserInfoFetcher.html">BDKUserInfoFetcher</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallBannerControllerDelegate.html">CallBannerControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessageNotificationControllerDelegate.html">MessageNotificationControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKChatNotification.h@T@BCHChatNotification">BCHChatNotification</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCHChatClientState">NSStringFromBCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallClientState">NSStringFromBCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallDirection">NSStringFromBCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallEndReason">NSStringFromBCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallParticipantState">NSStringFromBCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallState">NSStringFromBCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXCallType">NSStringFromBCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXDeclineReason">NSStringFromBCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/c:@F@NSStringFromBCXUserStatus">NSStringFromBCXUserStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Foundation.Timer.html">Foundation.Timer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CallPresentationError.html">CallPresentationError</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CallWindowDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKCallWindowDelegate</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">CallWindowDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>The <code><a href="../Classes/CallWindow.html">CallWindow</a></code> delegate. <code><a href="../Classes/CallWindow.html">CallWindow</a></code> instances will notify their delegate when events requiring its intervention have occurred.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(pl)BDKCallWindowDelegate(im)callWindowDidFinish:"></a>
+                    <a name="//apple_ref/swift/Method/callWindowDidFinish(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(pl)BDKCallWindowDelegate(im)callWindowDidFinish:">callWindowDidFinish(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when the window is ready to be dismissed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">callWindowDidFinish</span><span class="p">(</span><span class="n">_</span> <span class="nv">window</span><span class="p">:</span> <span class="kt"><a href="../Classes/CallWindow.html">CallWindow</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>window</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The window.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(pl)BDKCallWindowDelegate(im)callWindow:openChatWith:"></a>
+                    <a name="//apple_ref/swift/Method/callWindow(_:openChatWith:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(pl)BDKCallWindowDelegate(im)callWindow:openChatWith:">callWindow(_:<wbr>openChatWith:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when the user has requested to open a chat with another user.
+ You should hide the current window instance and present a <code><a href="../Classes/ChannelViewController.html">ChannelViewController</a></code> handing it the intent provided in the second parameter.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">callWindow</span><span class="p">(</span><span class="n">_</span> <span class="nv">window</span><span class="p">:</span> <span class="kt"><a href="../Classes/CallWindow.html">CallWindow</a></span><span class="p">,</span> <span class="n">openChatWith</span> <span class="nv">intent</span><span class="p">:</span> <span class="kt"><a href="../Classes/OpenChatIntent.html">OpenChatIntent</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>window</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The window.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>intent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The intent from which to start the chat.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://bandyer.com" target="_blank" rel="external">Bandyer s.r.l.</a>. All rights reserved. (Last updated: 2020-07-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
