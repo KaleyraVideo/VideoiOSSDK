@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Protocols  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Section/Protocols" class="dashAnchor"></a>
+    <a title="Protocols  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> 1.7.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Protocols  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Categories.html">Categories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Categories/PKPushCredentials%28BCXAdditions%29.html">PKPushCredentials(BCXAdditions)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/BCXCallOptions.html">BCXCallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKCallViewController.html">BDKCallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKCallViewControllerConfiguration.html">BDKCallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/c:objc(cs)BDKChatNotification">BDKChatNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKConfig.html">BDKConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKEnvironment.html">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/c:objc(cs)BDKFileShareNotification">BDKFileShareNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKFileshareToolConfiguration.html">BDKFileshareToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKIncomingCallHandlingIntent.html">BDKIncomingCallHandlingIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKJoinURLIntent.html">BDKJoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKMakeCallIntent.html">BDKMakeCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKTheme.html">BDKTheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKUserInfoDisplayItem.html">BDKUserInfoDisplayItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BDKWhiteboardToolConfiguration.html">BDKWhiteboardToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CallBannerController.html">CallBannerController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CallBannerView.html">CallBannerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CallPresentationErrorDomain.html">CallPresentationErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MessageNotificationController.html">MessageNotificationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MessageNotificationControllerConfiguration.html">MessageNotificationControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/OpenDownloadsIntent.html">OpenDownloadsIntent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@kBCXErrorDomain">kBCXErrorDomain</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/BCHChatClientState.html">BCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BCXCallClientState.html">BCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BCXCallDirection.html">BCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BCXCallEndReason.html">BCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BCXCallParticipantState.html">BCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BCXCallState.html">BCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BCXCallType.html">BCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BCXDeclineReason.html">BCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BCXErrorCode.html">BCXErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BCXUserStatus.html">BCXUserStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BDFLogFlag.html">BDFLogFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BDFLogLevel.html">BDFLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BDKCallType.html">BDKCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BDKSpeakerHijackingStrategy.html">BDKSpeakerHijackingStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/CallPresentationErrorCode.html">CallPresentationErrorCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/BCHChatClient.html">BCHChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCHChatClientObserver.html">BCHChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXAction.html">BCXAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXCall.html">BCXCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXCallClient.html">BCXCallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXCallClientObserver.html">BCXCallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXCallObserver.html">BCXCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXCallParticipant.html">BCXCallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXCallParticipants.html">BCXCallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXCallParticipantsObserver.html">BCXCallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXCallRegistry.html">BCXCallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXCallRegistryObserver.html">BCXCallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXHandleProvider.html">BCXHandleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BCXUser.html">BCXUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BDFUser.html">BDFUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BDKCallViewControllerDelegate.html">BDKCallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BDKInAppChatNotificationTouchListener.html">BDKInAppChatNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BDKInAppFileShareNotificationTouchListener.html">BDKInAppFileShareNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BDKInAppNotificationsCoordinator.html">BDKInAppNotificationsCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BDKIntent.html">BDKIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BDKUserInfoFetcher.html">BDKUserInfoFetcher</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CallBannerControllerDelegate.html">CallBannerControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MessageNotificationControllerDelegate.html">MessageNotificationControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:BDKChatNotification.h@T@BCHChatNotification">BCHChatNotification</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Functions.html#/c:@F@NSStringFromBCHChatClientState">NSStringFromBCHChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/c:@F@NSStringFromBCXCallClientState">NSStringFromBCXCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/c:@F@NSStringFromBCXCallDirection">NSStringFromBCXCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/c:@F@NSStringFromBCXCallEndReason">NSStringFromBCXCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/c:@F@NSStringFromBCXCallParticipantState">NSStringFromBCXCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/c:@F@NSStringFromBCXCallState">NSStringFromBCXCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/c:@F@NSStringFromBCXCallType">NSStringFromBCXCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/c:@F@NSStringFromBCXDeclineReason">NSStringFromBCXDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/c:@F@NSStringFromBCXUserStatus">NSStringFromBCXUserStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/Foundation.Timer.html">Foundation.Timer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/CallPresentationError.html">CallPresentationError</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Protocols</h1>
+            <p>The following protocols are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCHChatClient"></a>
+                    <a name="//apple_ref/swift/Protocol/BCHChatClient" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCHChatClient">BCHChatClient</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>It&rsquo;s the main item required to connect to the Chat platform.</p>
+
+                        <a href="Protocols/BCHChatClient.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCHChatClient</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCHChatClient</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCHChatClientObserver"></a>
+                    <a name="//apple_ref/swift/Protocol/BCHChatClientObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCHChatClientObserver">BCHChatClientObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An observer of a chat client object.</p>
+
+                        <a href="Protocols/BCHChatClientObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCHChatClientObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCHChatClientObserver</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXAction"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXAction" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXAction">BCXAction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An action represents a unit of work that must be performed by the system. It usually encapsulate the data needed to
+perform a particular task at a later time. An example of an action is &ldquo;mute the microphone of the device, during
+a phone call&rdquo;.
+Once an action has been performed by the system, it is marked as completed and it will contain the result of the task carried out.
+However, if for any reasons the action could not be fulfilled, the action will be marked as completed and as faulted and an error will be
+provided in order to explain why the task has failed.
+Because actions might be performed at a later time after being created, or they might involve time consuming tasks the should be
+carried out in background, you usually want to be notified when the action has been fulfilled or has failed. For this purpose action
+objects provide callbacks where you can hook up and be called when an action has been completed.</p>
+
+                        <a href="Protocols/BCXAction.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXAction</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXAction</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXCall"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXCall" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXCall">BCXCall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>It is the item representing a call in Bandyer platform.
+ The object provides information about the current state of the call (e.g if it&rsquo;s dialing, connecting, ended and so on),
+ information about the kind of call it&rsquo;s being performed (e.g. a group call, or a one to one call), the call direction,
+ and the call type (Audio Only, Audio Upgradable or Audio / Video).
+ It also provides information regarding call participants and their state
+ within the call (e.g if a participant has answered, declined and so on).</p>
+
+<p>Changes in the state of a call object will be notified to its observers. You can register as a call observer
+ using the methods <code>addObserver:</code> <code>addObserver:queue:</code> provided.
+ Beware that observer methods will be called an a private background queue. If you want to be notified on a different queue,
+ you can provide one yourself in the <code>addObserver:queue:</code> method.</p>
+
+                        <a href="Protocols/BCXCall.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXCall</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXCall</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXCallObserver"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXCallObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXCallObserver">BCXCallObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A call observer, notified about call events.</p>
+
+                        <a href="Protocols/BCXCallObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXCallObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXCallObserver</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXCallParticipant"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXCallParticipant" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXCallParticipant">BCXCallParticipant</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Object representing a call participant and its state in the call.
+This object can be checked for equality.</p>
+
+                        <a href="Protocols/BCXCallParticipant.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXCallParticipant</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXCallParticipant</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXCallParticipants"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXCallParticipants" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXCallParticipants">BCXCallParticipants</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An object representing the participants inside a call and their state.
+This object can be checked for equality.</p>
+
+                        <a href="Protocols/BCXCallParticipants.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXCallParticipants</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXCallParticipants</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXCallParticipantsObserver"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXCallParticipantsObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXCallParticipantsObserver">BCXCallParticipantsObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An observer of call participants object, informed about participant state changes.</p>
+
+                        <a href="Protocols/BCXCallParticipantsObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXCallParticipantsObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXCallParticipantsObserver</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXUser"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXUser" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXUser">BCXUser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a bandyer&rsquo;s user with its status.</p>
+
+                        <a href="Protocols/BCXUser.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXUser</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/BDFUser.html">BDFUser</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXUser</span> <span class="p">:</span> <span class="kt"><a href="Protocols/BDFUser.html">BDFUser</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXCallRegistry"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXCallRegistry" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXCallRegistry">BCXCallRegistry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A call registry acts as a repository containing the calls currently handled by the sdk.
+It won&rsquo;t track call history though, so once a call ends it will removed from the registry.</p>
+
+                        <a href="Protocols/BCXCallRegistry.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXCallRegistry</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXCallRegistry</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXCallRegistryObserver"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXCallRegistryObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXCallRegistryObserver">BCXCallRegistryObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An observer of a call registry object.</p>
+
+                        <a href="Protocols/BCXCallRegistryObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXCallRegistryObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXCallRegistryObserver</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXHandleProvider"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXHandleProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXHandleProvider">BCXHandleProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Objects conforming to this protocol are capable of converting user aliases (user ids) into a CXHandle object.</p>
+
+<p>CXHandle objects belongs to CallKit framework and are used by the system as a mean by which a call recipient can be reached, in other words
+ in a phone call these handles are used by the operating system to identify the caller or the callee by their phone number, email address
+ or any other mean.
+ Whenever an incoming call is received or an outgoing call is started, CallKit must know which recipients it must refer to, in order to
+ show the caller or the callee information on the system UI. If you were to enable CallKit, you should provide the sdk an object conforming
+ to this protocol. That object will be called whenever a CXHandle must be created for the aliases provided.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    CXHandle
+
+</div>
+
+                        <a href="Protocols/BCXHandleProvider.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXHandleProvider</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="p">,</span> <span class="n">NSCopying</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXHandleProvider</span> <span class="p">:</span> <span class="kt">NSCopying</span><span class="p">,</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXCallClient"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXCallClient" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXCallClient">BCXCallClient</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>It&rsquo;s the main item required to connect to the Bandyer platform.
+ Once initialized, the object will connect and keep the connection with Bandyer platform,
+ communicating and exchanging events with the servers. After a connection is established, the server will authenticate the client.
+ Once the authentication is successful, it will be possible to make and receive calls to and from other users.</p>
+
+<p>This item has the following capabilities:</p>
+
+<ul>
+<li>It places calls with other users within the same company. Bandyer platform will contact the designated users,
+notifying them if they are offline. If the call can be placed, the call process will be handled by the <code><a href="Protocols/BCXCall.html">BCXCall</a></code> object.</li>
+<li>it receives incoming calls from other users within the same company.</li>
+<li>It allows to join a call through an URL received from outside the app.</li>
+<li>It allows to join a call through a remote notification.</li>
+</ul>
+
+                        <a href="Protocols/BCXCallClient.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXCallClient</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXCallClient</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BCXCallClientObserver"></a>
+                    <a name="//apple_ref/swift/Protocol/BCXCallClientObserver" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BCXCallClientObserver">BCXCallClientObserver</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An observer of a call client object.</p>
+
+                        <a href="Protocols/BCXCallClientObserver.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BCXCallClientObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BCXCallClientObserver</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDFUser"></a>
+                    <a name="//apple_ref/swift/Protocol/BDFUser" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDFUser">BDFUser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a user in the bandyer&rsquo;s platform.</p>
+
+                        <a href="Protocols/BDFUser.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BDFUser</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BDFUser</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKUserInfoFetcher"></a>
+                    <a name="//apple_ref/swift/Protocol/BDKUserInfoFetcher" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKUserInfoFetcher">BDKUserInfoFetcher</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Classes conforming to this protocol must provide the user info display items for the user aliases requested.
+BandyerSDK will ask the fetcher to provide user details when user information is or is going to be needed,
+for example the SDK might ask user information when it must update the user interface when an outgoing call is being performed.
+Bandyer does not own user information like user&rsquo;s first name, last name, email addresses and so on.
+It is Bandyer client responsibility to provide those information through this protocol.</p>
+
+                        <a href="Protocols/BDKUserInfoFetcher.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BDKUserInfoFetcher</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="p">,</span> <span class="n">NSCopying</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BDKUserInfoFetcher</span> <span class="p">:</span> <span class="kt">NSCopying</span><span class="p">,</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKInAppChatNotificationTouchListener"></a>
+                    <a name="//apple_ref/swift/Protocol/BDKInAppChatNotificationTouchListener" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKInAppChatNotificationTouchListener">BDKInAppChatNotificationTouchListener</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a chat notification touch listener. Classes conforming to this protocol are notified when
+a chat notification has been touched by the user, providing the <code>ChatNotification</code> object representing the touched notification.
+You usually present a <code><a href="Classes/ChannelViewController.html">ChannelViewController</a></code> interface in response to this event handing it an <code><a href="Classes/OpenChatIntent.html">OpenChatIntent</a></code> object.</p>
+
+                        <a href="Protocols/BDKInAppChatNotificationTouchListener.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BDKInAppChatNotificationTouchListener</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">InAppChatNotificationTouchListener</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKInAppFileShareNotificationTouchListener"></a>
+                    <a name="//apple_ref/swift/Protocol/BDKInAppFileShareNotificationTouchListener" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKInAppFileShareNotificationTouchListener">BDKInAppFileShareNotificationTouchListener</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a file share notification touch listener. Classes conforming to this protocol are notified when
+a file share notification has been touched by the user, providing the <code>FileShareNotification</code> object representing the touched notification.
+You usually present a <code><a href="Classes/CallWindow.html">CallWindow</a></code> interface in response to this event handing it an <code><a href="Classes/OpenDownloadsIntent.html">OpenDownloadsIntent</a></code> object.
+Doing so it will redirect the user of your app to the Downloads screen shown by the Bandyer <code>CallViewController</code>.</p>
+
+                        <a href="Protocols/BDKInAppFileShareNotificationTouchListener.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BDKInAppFileShareNotificationTouchListener</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">InAppFileShareNotificationTouchListener</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKInAppNotificationsCoordinator"></a>
+                    <a name="//apple_ref/swift/Protocol/BDKInAppNotificationsCoordinator" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKInAppNotificationsCoordinator">BDKInAppNotificationsCoordinator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the central coordination point for in-app notifications. When this service is started whenever a chat message is received or
+a new file has been uploaded during a call an in-app notification will be presented to the user.</p>
+
+                        <a href="Protocols/BDKInAppNotificationsCoordinator.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BDKInAppNotificationsCoordinator</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">InAppNotificationsCoordinator</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKIntent"></a>
+                    <a name="//apple_ref/swift/Protocol/BDKIntent" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKIntent">BDKIntent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a request for an action that the sdk should fulfill on behalf of the user.</p>
+
+                        <a href="Protocols/BDKIntent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BDKIntent</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">BDKIntent</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallViewControllerDelegate"></a>
+                    <a name="//apple_ref/swift/Protocol/BDKCallViewControllerDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallViewControllerDelegate">BDKCallViewControllerDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the delegate of a <code><a href="Classes/BDKCallViewController.html">BDKCallViewController</a></code> instance.
+<code><a href="Classes/BDKCallViewController.html">BDKCallViewController</a></code> instances will notify their delegate when they have finished handling a call and they are ready to be dismissed.</p>
+
+                        <a href="Protocols/BDKCallViewControllerDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BDKCallViewControllerDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CallViewControllerDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/ChannelViewControllerDelegate"></a>
+                <a name="//apple_ref/swift/Section/ChannelViewControllerDelegate" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/ChannelViewControllerDelegate"></a>
+                  <h3 class="section-name"><p>ChannelViewControllerDelegate</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(pl)BCHChannelViewControllerDelegate"></a>
+                    <a name="//apple_ref/swift/Protocol/ChannelViewControllerDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(pl)BCHChannelViewControllerDelegate">ChannelViewControllerDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the <code><a href="Classes/ChannelViewController.html">ChannelViewController</a></code>&lsquo;s delegate. Classes conforming to this class will be notified by the <code><a href="Classes/ChannelViewController.html">ChannelViewController</a></code>
+when events occur giving them the chance to react to those events.</p>
+
+                        <a href="Protocols/ChannelViewControllerDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">BCHChannelViewControllerDelegate</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ChannelViewControllerDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(pl)BCHMessageNotificationControllerDelegate"></a>
+                    <a name="//apple_ref/swift/Protocol/MessageNotificationControllerDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(pl)BCHMessageNotificationControllerDelegate">MessageNotificationControllerDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the <code><a href="Classes/MessageNotificationController.html">MessageNotificationController</a></code> delegate.
+<code><a href="Classes/MessageNotificationController.html">MessageNotificationController</a></code> instances will notify their delegate when an in-app chat notification is touched by the user.</p>
+
+                        <a href="Protocols/MessageNotificationControllerDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">deprecated</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"MessageNotificationControllerDelegate is deprecated it has been replaced by InAppChatNotificationTouchListener protocol."</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="kt">BCHMessageNotificationControllerDelegate</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MessageNotificationControllerDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(pl)BDKCallBannerControllerDelegate"></a>
+                    <a name="//apple_ref/swift/Protocol/CallBannerControllerDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(pl)BDKCallBannerControllerDelegate">CallBannerControllerDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code><a href="Classes/CallBannerController.html">CallBannerController</a></code>&lsquo;s delegate. <code><a href="Classes/CallBannerController.html">CallBannerController</a></code> instances will notify their delegate about events that have or
+are about to occur, giving them the ability to react to those event accordingly.</p>
+
+                        <a href="Protocols/CallBannerControllerDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKCallBannerControllerDelegate</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">CallBannerControllerDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(pl)BDKCallWindowDelegate"></a>
+                    <a name="//apple_ref/swift/Protocol/CallWindowDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(pl)BDKCallWindowDelegate">CallWindowDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code><a href="Classes/CallWindow.html">CallWindow</a></code> delegate. <code><a href="Classes/CallWindow.html">CallWindow</a></code> instances will notify their delegate when events requiring its intervention have occurred.</p>
+
+                        <a href="Protocols/CallWindowDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKCallWindowDelegate</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">CallWindowDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://bandyer.com" target="_blank" rel="external">Bandyer s.r.l.</a>. All rights reserved. (Last updated: 2020-10-02)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
