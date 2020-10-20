@@ -4,7 +4,7 @@
 
 [![Cocoapods compatible](https://img.shields.io/cocoapods/v/Bandyer)](https://cocoapods.org/pods/Bandyer)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/1.7.1/index.html)
+[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/1.7.2/index.html)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=bandyersrl)
 
 Bandyer is an in-cloud collaborative solution for corporates, featuring a rich set of tools for enabling videoconferencing in your product. The BandyerSDK for iOS makes it easy to embed one to one, many to many high-quality voice and video calls into your mobile app, with a seamless integration with the iOS operating system. It features a fully fledged set of collaborative tools comprehensive of messaging, screen sharing, remote snapshot, collaborative interactive board and call recording capabilities. 
@@ -39,7 +39,7 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 
 ## Latest version
 
-BandyerSDK 1.7.1 version is the latest version.
+BandyerSDK 1.7.2 version is the latest version.
 
 ## Installation
 
