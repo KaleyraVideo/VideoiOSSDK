@@ -1,0 +1,12 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/marco/Workspace/AppCode/Bandyer-iOS/Source/SDK/InAppNotification/BDKChatNotification.h",
+      "line": 24,
+      "symbol": "BCHChatNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/marco/Workspace/AppCode/Bandyer-iOS"
+}
