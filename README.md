@@ -4,7 +4,7 @@
 
 [![Cocoapods compatible](https://img.shields.io/cocoapods/v/Bandyer)](https://cocoapods.org/pods/Bandyer)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/1.7.3/index.html)
+[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/latest/index.html)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=bandyersrl)
 
 Bandyer is an in-cloud collaborative solution for corporates, featuring a rich set of tools for enabling videoconferencing in your product. The BandyerSDK for iOS makes it easy to embed one to one, many to many high-quality voice and video calls into your mobile app, with a seamless integration with the iOS operating system. It features a fully fledged set of collaborative tools comprehensive of messaging, screen sharing, remote snapshot, collaborative interactive board and call recording capabilities. 
@@ -36,10 +36,11 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 - In-app call banner
 - In-app Screensharing (iOS 13.0 and later only)
 - Filesharing
+- Screen device screensharing (iOS 12.0 and later only. **BETA**) 
 
 ## Latest version
 
-BandyerSDK 1.7.3 version is the latest version.
+BandyerSDK 2.0.0-beta3 version is the latest version. We are planning to release the 2.0.0 stable version in few days. If you are looking for the stable version use the BandyerSDK 1.7.3 version.
 
 ## Installation
 
@@ -56,18 +57,18 @@ $ gem install cocoapods
 To integrate the SDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-platform :ios, '9.0'
+platform :ios, '10.0'
 use_frameworks!
 
 target '<YOUR_TARGET_NAME>' do
-    pod 'Bandyer'
+    pod 'Bandyer', '2.0.0-beta3'
 end
 ```
 
 Replace '\<YOUR\_TARGET\_NAME\>' with the name of your App target and then, in the Podfile directory, run the following command:
 
 ```bash
-$ pod install
+$ pod install --repo-update
 ```
 
 ## Getting started
@@ -76,7 +77,7 @@ To begin making calls to the Bandyer platform, you need first to obtain credenti
 
 ## Documentation
 
-You can find the complete code documentation [here][documentation].
+You can find the complete code documentation for the latest version [here][latest-doc]. If you are looking for the stable version documentation please checkout this [link][stable-doc] instead.
 You can find all the code guides in our [wiki page][wiki].
 
 ## Sample apps
@@ -110,7 +111,8 @@ If you prefer commercial support, please contact [bandyer.com][bandyer-website] 
 [installation-guide]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Installation
 [bandyer-website]: https://www.bandyer.com
 [wiki]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki
-[documentation]: https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/latest/index.html
+[latest-doc]: https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/latest/index.html
+[stable-doc]: https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/stable/index.html
 [objective-c-samples]: https://github.com/Bandyer/Bandyer-iOS-SDK-Samples
 [swift-samples]: https://github.com/Bandyer/Bandyer-iOS-SDK-Samples-Swift
 [android]: https://github.com/Bandyer/Bandyer-Android-SDK
