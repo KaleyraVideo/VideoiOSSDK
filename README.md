@@ -40,7 +40,7 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 
 ## Latest version
 
-BandyerSDK 2.0.0-beta3 version is the latest version. We are planning to release the 2.0.0 stable version in few days. If you are looking for the stable version use the BandyerSDK 1.7.3 version.
+BandyerSDK 2.0.0 version is the latest stable version.
 
 ## Installation
 
@@ -61,7 +61,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<YOUR_TARGET_NAME>' do
-    pod 'Bandyer', '2.0.0-beta3'
+    pod 'Bandyer', '2.0.0'
 end
 ```
 
