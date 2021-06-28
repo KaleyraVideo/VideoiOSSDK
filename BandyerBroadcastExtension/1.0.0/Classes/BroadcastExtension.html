@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BroadcastExtension Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BroadcastExtension" class="dashAnchor"></a>
+    <a title="BroadcastExtension Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">BandyerBroadcastExtension 1.0.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">BandyerBroadcastExtension Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BroadcastExtension Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BroadcastExtension.html">BroadcastExtension</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BroadcastExtension</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOSApplicationExtension</span> <span class="mf">12.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="kt">BBEBroadcastExtension</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">BroadcastExtension</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>A class responsible for handling a broadcast session with the Bandyer platform.</p>
+
+<p>The <code>BroadcastExtension</code> public interface resemble a <code>RPBroadcastSampleHandler</code> subclass, you should indeed
+ call each <code>BroadcastExtension</code> method in the corresponding method from your <code>RPBroadcastSampleHandler</code> subclass.
+ You cannot instantiate this class directly, you must use the singleton instance provided instead.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(cpy)instance"></a>
+                    <a name="//apple_ref/swift/Variable/instance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(cpy)instance">instance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The shared singleton instance</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">instance</span><span class="p">:</span> <span class="kt">BroadcastExtension</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)startWithAppGroupIdentifier:setupInfo:errorHandler:"></a>
+                    <a name="//apple_ref/swift/Method/start(appGroupIdentifier:setupInfo:errorHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)startWithAppGroupIdentifier:setupInfo:errorHandler:">start(appGroupIdentifier:<wbr>setupInfo:<wbr>errorHandler:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Starts the Bandyer Broadcast Extension</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">start</span><span class="p">(</span><span class="nv">appGroupIdentifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">setupInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">]?,</span> <span class="nv">errorHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>appGroupIdentifier</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The app group identifier for the app group shared between your App and your BroadcastUploadExtension</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>setupInfo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The dictionary received by your <code>RPBroadcastSampleHandler</code> subclass when its start method is invoked</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorHandler</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A callback function invoked when an error occurs while the Broadcast is in progress</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)pause"></a>
+                    <a name="//apple_ref/swift/Method/pause()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)pause">pause()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pauses the Bandyer Broadcast Extension</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">pause</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)resume"></a>
+                    <a name="//apple_ref/swift/Method/resume()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)resume">resume()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resumes the Bandyer Broadcast Extension</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">resume</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)finish"></a>
+                    <a name="//apple_ref/swift/Method/finish()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)finish">finish()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stops the Bandyer Broadcast Extension and the broadcast session</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">finish</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)processSampleBuffer:ofType:"></a>
+                    <a name="//apple_ref/swift/Method/process(sampleBuffer:ofType:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BandyerBroadcastExtension@objc(cs)BBEBroadcastExtension(im)processSampleBuffer:ofType:">process(sampleBuffer:<wbr>ofType:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Process a sample buffer of the type provided</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">processSampleBuffer</span><span class="p">:</span><span class="nv">ofType</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">process</span><span class="p">(</span><span class="nv">sampleBuffer</span><span class="p">:</span> <span class="kt">CMSampleBuffer</span><span class="p">,</span> <span class="n">ofType</span> <span class="nv">type</span><span class="p">:</span> <span class="kt">RPSampleBufferType</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sampleBuffer</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The sample buffer provided by ReplayKit to your <code>RPBroadcastSampleHandler</code> subclass</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>type</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The type of sample buffer received</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://bandyer.com" target="_blank" rel="external">Bandyer s.r.l.</a>. All rights reserved. (Last updated: 2021-06-25)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
