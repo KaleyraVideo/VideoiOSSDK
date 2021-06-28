@@ -36,11 +36,11 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 - In-app call banner
 - In-app Screensharing (iOS 13.0 and later only)
 - Filesharing
-- Screen device screensharing (iOS 12.0 and later only. **BETA**) 
+- Screen device screensharing (iOS 12.0 and later only) 
 
 ## Latest version
 
-BandyerSDK 2.0.0 version is the latest stable version.
+BandyerSDK 2.1.0 version is the latest stable version, featuring a brand new filesharing UI and the support for broadcast screen sharing
 
 ## Installation
 
@@ -61,7 +61,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<YOUR_TARGET_NAME>' do
-    pod 'Bandyer', '2.0.0'
+    pod 'Bandyer', '2.1.0'
 end
 ```
 
