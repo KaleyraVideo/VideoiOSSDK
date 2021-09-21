@@ -40,7 +40,7 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 
 ## Latest version
 
-BandyerSDK 2.1.1 version is the latest stable version.
+BandyerSDK 2.1.2 version is the latest stable version.
 
 ## Installation
 
