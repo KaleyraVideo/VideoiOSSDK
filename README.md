@@ -32,8 +32,7 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 - Interactive collaborative space
 - Remote camera snapshot
 - Ready to use UI
-- In-app notification banner
-- In-app call banner
+- In-app notifications
 - In-app Screensharing (iOS 13.0 and later only)
 - Filesharing
 - Screen device screensharing (iOS 12.0 and later only) 
@@ -41,7 +40,7 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 
 ## Latest version
 
-BandyerSDK 2.5.0 version is the latest stable version.
+BandyerSDK 2.5.1 version is the latest stable version.
 
 ## Installation
 
