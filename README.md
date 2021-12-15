@@ -76,7 +76,7 @@ $ pod install --repo-update
 
 ## Getting started
 
-To begin making calls to the Kaleyra Video platform, you need first to obtain credentials for your app. In order to do so, you must contact our sales department. Head over to our [website][bandyer-website] or contact us at [info@bandyer.com](mailto:info@bandyer.com) to get your credentials. Once you obtained your credentials head over to our [wiki page][wiki] where you'll find a comprehensive set of guides that will help you integrate the Kaleyra Video SDK in your iOS app. 
+To begin making calls to the Kaleyra Video platform, you need first to obtain credentials for your app. In order to do so, you must contact our sales department. Head over to our [website][kaleyra-website] or contact us at [video@kaleyra.com](mailto:video@kaleyra.com) to get your credentials. Once you obtained your credentials head over to our [wiki page][wiki] where you'll find a comprehensive set of guides that will help you integrate the Kaleyra Video SDK in your iOS app. 
 
 ## Documentation
 
@@ -98,7 +98,7 @@ If you're looking for the Android platform head over to our [Android repository]
 
 To get basic support please submit an [Issue][issues]
 
-If you prefer commercial support, please contact [bandyer.com][bandyer-website] sending an email at: [info@bandyer.com](mailto:info@bandyer.com.).
+If you prefer commercial support, please contact us sending an email at: [video@kaleyra.com](mailto:video@kaleyra.com).
 
 ## Credits
 
@@ -112,7 +112,7 @@ If you prefer commercial support, please contact [bandyer.com][bandyer-website] 
 [cocoapods-getting-started]: https://guides.cocoapods.org/using/getting-started.html
 [carthage]: https://github.com/Carthage/Carthage
 [installation-guide]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Installation
-[bandyer-website]: https://www.bandyer.com
+[kaleyra-website]: https://www.kaleyra.com/
 [wiki]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki
 [latest-doc]: https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/latest/index.html
 [stable-doc]: https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/stable/index.html
