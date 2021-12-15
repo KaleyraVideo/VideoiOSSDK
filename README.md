@@ -1,13 +1,15 @@
+# Bandyer iOS SDK - (now Kaleyra Video)
+
 <p align="center">
-	<img src="img/Bandyer-logotype-white-1024x500.png" alt="Bandyer" title="Bandyer" />
+	<img src="img/logo.png" alt="Kaleyra Logo" title="Kaleyra Video" />
 </p>
 
 [![Cocoapods compatible](https://img.shields.io/cocoapods/v/Bandyer)](https://cocoapods.org/pods/Bandyer)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/latest/index.html)
-[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=bandyersrl)
+[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/Kaleyra_)
 
-Bandyer is an in-cloud collaborative solution for corporates, featuring a rich set of tools for enabling videoconferencing in your product. The BandyerSDK for iOS makes it easy to embed one to one, many to many high-quality voice and video calls into your mobile app, with a seamless integration with the iOS operating system. It features a fully fledged set of collaborative tools comprehensive of messaging, screen sharing, remote snapshot, collaborative interactive board and call recording capabilities. 
+Kaleyra Video is an in-cloud collaborative solution for corporates, featuring a rich set of tools for enabling videoconferencing in your product. The Kaleyra Video SDK for iOS makes it easy to embed one to one, many to many high-quality voice and video calls into your mobile app, with a seamless integration with the iOS operating system. It features a fully fledged set of collaborative tools comprehensive of messaging, screen sharing, remote snapshot, collaborative interactive board and call recording capabilities. 
 
 ## Contents
 
@@ -40,11 +42,12 @@ Bandyer is an in-cloud collaborative solution for corporates, featuring a rich s
 
 ## Latest version
 
-BandyerSDK 2.5.1 version is the latest stable version.
+2.5.1 version is the latest stable version.
 
 ## Installation
 
 Several installation methods are supported. [CocoaPods][cocoapods] is the most straightforward way to add the SDK to your project. If you're new to CocoaPods, their website contains lots of helpful [documentation][cocoapods-getting-started]. [Carthage][carthage] is also supported, for futher information head over to our [installation guide][installation-guide].
+Even though the SDK has changed name from **Bandyer** to **Kaleyra Video** the SDK module name is still named **Bandyer**.
 
 ### Cocoapods
 
@@ -73,7 +76,7 @@ $ pod install --repo-update
 
 ## Getting started
 
-To begin making calls to the Bandyer platform, you need first to obtain credentials for your app. In order to do so, you must contact our sales department. Head over to our [website][bandyer-website] or contact us at [info@bandyer.com](mailto:info@bandyer.com) to get your credentials. Once you obtained your credentials head over to our [wiki page][wiki] where you'll find a comprehensive set of guides that will help you integrate the BandyerSDK in your iOS app. 
+To begin making calls to the Kaleyra Video platform, you need first to obtain credentials for your app. In order to do so, you must contact our sales department. Head over to our [website][bandyer-website] or contact us at [info@bandyer.com](mailto:info@bandyer.com) to get your credentials. Once you obtained your credentials head over to our [wiki page][wiki] where you'll find a comprehensive set of guides that will help you integrate the Kaleyra Video SDK in your iOS app. 
 
 ## Documentation
 
@@ -82,7 +85,7 @@ You can find all the code guides in our [wiki page][wiki].
 
 ## Sample apps
 
-You can find several sample apps showing you the BandyerSDK capabilities and features at the links below:
+You can find several sample apps showing you the Kaleyra Video SDK capabilities and features at the links below:
 
 - [Objective-C samples][objective-c-samples]
 - [Swift samples][swift-samples]
