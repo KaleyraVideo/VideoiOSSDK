@@ -42,7 +42,7 @@ Kaleyra Video is an in-cloud collaborative solution for corporates, featuring a 
 
 ## Latest version
 
-2.6.0 version is the latest stable version.
+2.7.0 version is the latest stable version.
 
 ## Installation
 
@@ -64,7 +64,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<YOUR_TARGET_NAME>' do
-    pod 'Bandyer', '2.1.0'
+    pod 'Bandyer'
 end
 ```
 
