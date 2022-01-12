@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BDKCallClientObserver Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/BDKCallClientObserver" class="dashAnchor"></a>
+    <a title="BDKCallClientObserver Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 2.8.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        BDKCallClientObserver Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Categories.html">Categories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Categories/PKPushCredentials%28BDKToken%29.html">PKPushCredentials(BDKToken)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BDKBroadcastScreensharingToolConfiguration.html">BDKBroadcastScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallOptions.html">BDKCallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewController.html">BDKCallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewControllerConfiguration.html">BDKCallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)BDKChatNotification">BDKChatNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKConfig.html">BDKConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKEnvironment.html">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)BDKFileShareNotification">BDKFileShareNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKFileshareToolConfiguration.html">BDKFileshareToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKHandleIncomingCallIntent.html">BDKHandleIncomingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKInAppScreensharingToolConfiguration.html">BDKInAppScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKJoinURLIntent.html">BDKJoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKStartOutgoingCallIntent.html">BDKStartOutgoingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKUserDetails.html">BDKUserDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BDKWhiteboardToolConfiguration.html">BDKWhiteboardToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallBannerController.html">CallBannerController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallPresentationErrorDomain.html">CallPresentationErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenDownloadsIntent.html">OpenDownloadsIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Theme.html">Theme</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kBDKErrorDomain">kBDKErrorDomain</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallClientState.html">BDKCallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallDirection.html">BDKCallDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallEndReason.html">BDKCallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallParticipantState.html">BDKCallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallState.html">BDKCallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKCallType.html">BDKCallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKChatClientState.html">BDKChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKDeclineReason.html">BDKDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKErrorCode.html">BDKErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKLogFlag.html">BDKLogFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKLogLevel.html">BDKLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKSpeakerHijackingStrategy.html">BDKSpeakerHijackingStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKUserState.html">BDKUserState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallPresentationErrorCode.html">CallPresentationErrorCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCall.html">BDKCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallClient.html">BDKCallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallClientObserver.html">BDKCallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallObserver.html">BDKCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallParticipant.html">BDKCallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallParticipants.html">BDKCallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallParticipantsObserver.html">BDKCallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallRegistry.html">BDKCallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallRegistryObserver.html">BDKCallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallViewControllerDelegate.html">BDKCallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKChatClient.html">BDKChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKChatClientObserver.html">BDKChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKInAppChatNotificationTouchListener.html">BDKInAppChatNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKInAppFileShareNotificationTouchListener.html">BDKInAppFileShareNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKInAppNotificationsCoordinator.html">BDKInAppNotificationsCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKIntent.html">BDKIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKUser.html">BDKUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKUserDetailsProvider.html">BDKUserDetailsProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallBannerControllerDelegate.html">CallBannerControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CallPresentationError.html">CallPresentationError</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BDKCallClientObserver</h1>
+              <div class="declaration">
+                <div class="language">
+                  <p class="aside-title">Objective-C</p>
+                  <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">BDKCallClientObserver</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                </div>
+                <div class="language">
+                  <p class="aside-title">Swift</p>
+                  <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CallClientObserver</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                </div>
+              </div>
+            <p>An observer of a call client object.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClient:didReceiveIncomingCall:"></a>
+                    <a name="//apple_ref/swift/Method/-callClient:didReceiveIncomingCall:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClient:didReceiveIncomingCall:">-callClient:<wbr>didReceiveIncomingCall:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client detects a new incoming call.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClient</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span>
+    <span class="nf">didReceiveIncomingCall</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCall.html">BDKCall</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">call</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>call</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The incoming call object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClientWillStart:"></a>
+                    <a name="//apple_ref/swift/Method/-callClientWillStart:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClientWillStart:">-callClientWillStart:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client will start.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClientWillStart</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClientDidStart:"></a>
+                    <a name="//apple_ref/swift/Method/-callClientDidStart:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClientDidStart:">-callClientDidStart:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client is started successfully and it is connected to Bandyer platform.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClientDidStart</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClientDidStartReconnecting:"></a>
+                    <a name="//apple_ref/swift/Method/-callClientDidStartReconnecting:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClientDidStartReconnecting:">-callClientDidStartReconnecting:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client has started the reconnection process to Bandyer platform.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClientDidStartReconnecting</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClientWillPause:"></a>
+                    <a name="//apple_ref/swift/Method/-callClientWillPause:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClientWillPause:">-callClientWillPause:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client will pause.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClientWillPause</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClientDidPause:"></a>
+                    <a name="//apple_ref/swift/Method/-callClientDidPause:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClientDidPause:">-callClientDidPause:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client did pause.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClientDidPause</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClientWillStop:"></a>
+                    <a name="//apple_ref/swift/Method/-callClientWillStop:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClientWillStop:">-callClientWillStop:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client will stop.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClientWillStop</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClientDidStop:"></a>
+                    <a name="//apple_ref/swift/Method/-callClientDidStop:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClientDidStop:">-callClientDidStop:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client is stopped.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClientDidStop</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClientWillResume:"></a>
+                    <a name="//apple_ref/swift/Method/-callClientWillResume:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClientWillResume:">-callClientWillResume:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client is starting to resume.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClientWillResume</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClientDidResume:"></a>
+                    <a name="//apple_ref/swift/Method/-callClientDidResume:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClientDidResume:">-callClientDidResume:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client did resume successfully.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClientDidResume</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)BDKCallClientObserver(im)callClient:didFailWithError:"></a>
+                    <a name="//apple_ref/swift/Method/-callClient:didFailWithError:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)BDKCallClientObserver(im)callClient:didFailWithError:">-callClient:<wbr>didFailWithError:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoked when a call client fails because of a fatal error.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">callClient</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/BDKCallClient.html">BDKCallClient</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">client</span>
+    <span class="nf">didFailWithError</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSError</span> <span class="o">*</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>client</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call client object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error occurred.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="https://www.kaleyra.com/" target="_blank" rel="external noopener">Kaleyra S.p.a.</a>. All rights reserved. (Last updated: 2022-01-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
