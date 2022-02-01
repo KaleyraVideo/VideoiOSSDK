@@ -3,8 +3,5 @@
 # Socket.IO-Client-Swift
 github "socketio/socket.io-client-swift" ~> 15.2
 
-# Twilio chat client
-github "twilio/twilio-chat-ios" ~> 2.6
-
 # Bandyer SDK
-binary "https://static.bandyer.com/corporate/iOS/releases/carthage/Bandyer.json" ~> 2.8.0
+binary "https://static.bandyer.com/corporate/iOS/releases/carthage/Bandyer.json" ~> 2.9.0
