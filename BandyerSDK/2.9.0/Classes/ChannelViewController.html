@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BDKCallEndReason Enumeration Reference</title>
+    <title>ChannelViewController Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Enum/BDKCallEndReason" class="dashAnchor"></a>
-    <a title="BDKCallEndReason Enumeration Reference"></a>
+    <a name="//apple_ref/swift/Class/ChannelViewController" class="dashAnchor"></a>
+    <a title="ChannelViewController Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> 2.9.0 Docs</a></p>
@@ -30,7 +30,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" alt=""/>
-        BDKCallEndReason Enumeration Reference
+        ChannelViewController Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -257,20 +257,22 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>BDKCallEndReason</h1>
+            <h1>ChannelViewController</h1>
               <div class="declaration">
                 <div class="language">
-                  <p class="aside-title">Objective-C</p>
-                  <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="n">BDKCallEndReason</span> <span class="o">:</span> <span class="n">NSInteger</span> <span class="p">{}</span></code></pre>
-
-                </div>
-                <div class="language">
-                  <p class="aside-title">Swift</p>
-                  <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">CallEndReason</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                  
+                  <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKChannelViewController</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">ChannelViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
 
                 </div>
               </div>
-            <p>An enumeration representing the possible call end reasons.</p>
+            <p>A view controller showing the user interface of the chat between the current user and the user specified in the <code><a href="../Classes/OpenChatIntent.html">OpenChatIntent</a></code> provided.
+ This view controller should be presented modally. You should not embed this view controller in a <code>UINavigationController</code></p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    You must provide an intent before the view controller&rsquo;s view is loaded. Any intent provided after the view has loaded will be ignored.
+
+</div>
 
           </section>
           <section class="section task-group-section">
@@ -279,9 +281,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@BDKCallEndReason@BDKCallEndReasonUnknown"></a>
-                    <a name="//apple_ref/swift/Case/BDKCallEndReasonUnknown" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@BDKCallEndReason@BDKCallEndReasonUnknown">BDKCallEndReasonUnknown</a>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKChannelViewController(py)configuration"></a>
+                    <a name="//apple_ref/swift/Property/configuration" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKChannelViewController(py)configuration">configuration</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -289,19 +291,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Call has ended but the reason is unknown.</p>
+                        <p>The <code><a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a></code>used to configure this view controller.
+You should set a new value before the view is loaded. Setting a value when the view has been loaded already does nothing</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">BDKCallEndReasonUnknown</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span></code></pre>
-
-                        </div>
-                        <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unknown</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">configuration</span><span class="p">:</span> <span class="kt"><a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -311,9 +310,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@BDKCallEndReason@BDKCallEndReasonNone"></a>
-                    <a name="//apple_ref/swift/Case/BDKCallEndReasonNone" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@BDKCallEndReason@BDKCallEndReasonNone">BDKCallEndReasonNone</a>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKChannelViewController(py)delegate"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKChannelViewController(py)delegate">delegate</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -321,19 +320,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Call is not ended.</p>
+                        <p>The view controller&rsquo;s delegate.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">BDKCallEndReasonNone</span></code></pre>
-
-                        </div>
-                        <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="k">none</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -343,9 +338,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@BDKCallEndReason@BDKCallEndReasonHangUp"></a>
-                    <a name="//apple_ref/swift/Case/BDKCallEndReasonHangUp" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@BDKCallEndReason@BDKCallEndReasonHangUp">BDKCallEndReasonHangUp</a>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKChannelViewController(py)intent"></a>
+                    <a name="//apple_ref/swift/Property/intent" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKChannelViewController(py)intent">intent</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -353,179 +348,21 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Call has been hung up.</p>
+                        <p>Starts processing the intent provided as argument.
+You must provide an intent to be processed before the view is loaded.</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    You can provide only one non nil intent for each instance of &lsquo;ChannelViewController&rsquo;. Only the first one will be taken into account, other ones will be discarded.
+
+</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">BDKCallEndReasonHangUp</span></code></pre>
-
-                        </div>
-                        <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">hangUp</span> <span class="o">=</span> <span class="mi">1</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@E@BDKCallEndReason@BDKCallEndReasonDeclined"></a>
-                    <a name="//apple_ref/swift/Case/BDKCallEndReasonDeclined" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@BDKCallEndReason@BDKCallEndReasonDeclined">BDKCallEndReasonDeclined</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Call has been declined.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">BDKCallEndReasonDeclined</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">declined</span> <span class="o">=</span> <span class="mi">2</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@E@BDKCallEndReason@BDKCallEndReasonAnsweredOnAnotherDevice"></a>
-                    <a name="//apple_ref/swift/Case/BDKCallEndReasonAnsweredOnAnotherDevice" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@BDKCallEndReason@BDKCallEndReasonAnsweredOnAnotherDevice">BDKCallEndReasonAnsweredOnAnotherDevice</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Call has been answered or declined on another device.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">BDKCallEndReasonAnsweredOnAnotherDevice</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">answeredOnAnotherDevice</span> <span class="o">=</span> <span class="mi">3</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@E@BDKCallEndReason@BDKCallEndReasonUserDisconnected"></a>
-                    <a name="//apple_ref/swift/Case/BDKCallEndReasonUserDisconnected" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@BDKCallEndReason@BDKCallEndReasonUserDisconnected">BDKCallEndReasonUserDisconnected</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Call has ended because the opponent has disconnected.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">BDKCallEndReasonUserDisconnected</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">userDisconnected</span> <span class="o">=</span> <span class="mi">4</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@E@BDKCallEndReason@BDKCallEndReasonTimedOut"></a>
-                    <a name="//apple_ref/swift/Case/BDKCallEndReasonTimedOut" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@BDKCallEndReason@BDKCallEndReasonTimedOut">BDKCallEndReasonTimedOut</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Call has ended because the opponent did not join the room in time.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">BDKCallEndReasonTimedOut</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">timedOut</span> <span class="o">=</span> <span class="mi">5</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@E@BDKCallEndReason@BDKCallEndReasonError"></a>
-                    <a name="//apple_ref/swift/Case/BDKCallEndReasonError" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@BDKCallEndReason@BDKCallEndReasonError">BDKCallEndReasonError</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Call has ended because of an error.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">BDKCallEndReasonError</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">error</span> <span class="o">=</span> <span class="mi">6</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">intent</span><span class="p">:</span> <span class="kt"><a href="../Classes/OpenChatIntent.html">OpenChatIntent</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
