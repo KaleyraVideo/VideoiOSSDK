@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CallOptions Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CallOptions" class="dashAnchor"></a>
+    <a title="CallOptions Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 3.0.0-beta Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        CallOptions Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewController.html">BDKCallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BroadcastScreensharingToolConfiguration.html">BroadcastScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfiguration.html">CallKitConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfigurationBuilder.html">CallKitConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfigurationBuilderObjcAdapter.html">CallKitConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitProviderConfigurationBuilder.html">CallKitProviderConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitProviderConfigurationBuilderObjcAdapter.html">CallKitProviderConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallOptions.html">CallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfiguration.html">CallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfigurationBuilder.html">CallViewControllerConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfigurationBuilderObjcAdapter.html">CallViewControllerConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Bandyer@objc(cs)BDKChatNotification">ChatNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatToolConfiguration.html">ChatToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Config.html">Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfigBuilder.html">ConfigBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfigBuilderObjcAdapter.html">ConfigBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Bandyer@objc(cs)BDKFileShareNotification">FileShareNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FileshareToolConfiguration.html">FileshareToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HandleIncomingCallIntent.html">HandleIncomingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InAppScreensharingToolConfiguration.html">InAppScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JoinURLIntent.html">JoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenDownloadsIntent.html">OpenDownloadsIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Session.html">Session</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StartOutgoingCallIntent.html">StartOutgoingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Theme.html">Theme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfiguration.html">ToolsConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfigurationBuilder.html">ToolsConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfigurationBuilderObjcAdapter.html">ToolsConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserDetails.html">UserDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfiguration.html">VoIPPushConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfigurationBuilder.html">VoIPPushConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfigurationBuilderObjcAdapter.html">VoIPPushConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteboardToolConfiguration.html">WhiteboardToolConfiguration</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKEnvironmentProduction">BDKEnvironmentProduction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKEnvironmentSandbox">BDKEnvironmentSandbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionEurope">BDKRegionEurope</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionIndia">BDKRegionIndia</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BDKLogFlag.html">BDKLogFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKLogLevel.html">BDKLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallClientState.html">CallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallDeclineReason.html">CallDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallEndReason.html">CallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallParticipantState.html">CallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallState.html">CallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallType.html">CallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ChatClientState.html">ChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SpeakerHijackingStrategy.html">SpeakerHijackingStrategy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenProvider.html">AccessTokenProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenProviderObjc.html">AccessTokenProviderObjc</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallViewControllerDelegate.html">BDKCallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Call.html">Call</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallClient.html">CallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallClientObserver.html">CallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallObserver.html">CallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipant.html">CallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipants.html">CallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipantsObserver.html">CallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRegistry.html">CallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRegistryObserver.html">CallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatClient.html">ChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatClientObserver.html">ChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppChatNotificationTouchListener.html">InAppChatNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppFileShareNotificationTouchListener.html">InAppFileShareNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppNotificationsCoordinator.html">InAppNotificationsCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IncomingCallObserver.html">IncomingCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Intent.html">Intent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SessionObserver.html">SessionObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserDetailsProvider.html">UserDetailsProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKEnvironment.h@T@BDKEnvironment">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKRegion.h@T@BDKRegion">BDKRegion</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/PKPushCredentials.html">PKPushCredentials</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CallOptions</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">12.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKCallOptions</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">CallOptions</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>A value object representing the options used when creating a call.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Properties"></a>
+                  <h3 class="section-name"><span>Properties</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(py)isRecorded"></a>
+                    <a name="//apple_ref/swift/Property/isRecorded" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(py)isRecorded">isRecorded</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A flag indicating whether the call should be recorded or not.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">isRecorded</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(py)maximumDuration"></a>
+                    <a name="//apple_ref/swift/Property/maximumDuration" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(py)maximumDuration">maximumDuration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The maximum duration in seconds for the call. If the value is zero the call will last until all participants have left.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">maximumDuration</span><span class="p">:</span> <span class="kt">UInt</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Call%20type"></a>
+                <a name="//apple_ref/swift/Section/Call type" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Call%20type"></a>
+                  <h3 class="section-name"><span>Call type</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(py)callType"></a>
+                    <a name="//apple_ref/swift/Property/callType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(py)callType">callType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The call type.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">callType</span><span class="p">:</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt"><a href="../Enums/CallType.html">CallType</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(im)isAudioVideo"></a>
+                    <a name="//apple_ref/swift/Method/isAudioVideo()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(im)isAudioVideo">isAudioVideo()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a flag indicating whether the call type is audio / video, or not.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">isAudioVideo</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a flag indicating whether the call type is audio / video, or not.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(im)isAudioUpgradable"></a>
+                    <a name="//apple_ref/swift/Method/isAudioUpgradable()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(im)isAudioUpgradable">isAudioUpgradable()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a flag indicating whether the call type is audio upgradable, or not.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">isAudioUpgradable</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a flag indicating whether the call type is audio upgradable, or not.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(im)isAudioOnly"></a>
+                    <a name="//apple_ref/swift/Method/isAudioOnly()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(im)isAudioOnly">isAudioOnly()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a flag indicating whether the call type is audio only, or not.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">isAudioOnly</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a flag indicating whether the call type is audio only, or not.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialization"></a>
+                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initialization"></a>
+                  <h3 class="section-name"><span>Initialization</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(im)initWithCallType:"></a>
+                    <a name="//apple_ref/swift/Method/init(callType:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(im)initWithCallType:">init(callType:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an instance setting the call type to the value provided as argument.</p>
+
+<p>The recorded flag will be set to false.
+ The maximum duration value will be set to zero (call will last until all participants have left the call).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">initWithCallType</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">callType</span><span class="p">:</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt"><a href="../Enums/CallType.html">CallType</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A call options instance with the call type provided as argument and the recorded flag and  maximumDuration properties set to default values.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(im)initWithCallType:recorded:"></a>
+                    <a name="//apple_ref/swift/Method/init(callType:recorded:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(im)initWithCallType:recorded:">init(callType:<wbr>recorded:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an instance setting the call type and the recorded flag to the values provided as arguments.</p>
+
+<p>The maximum duration value will be set to zero (call will last until all participants have left the call).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">initWithCallType</span><span class="p">:</span><span class="nv">recorded</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">callType</span><span class="p">:</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt"><a href="../Enums/CallType.html">CallType</a></span><span class="p">,</span> <span class="nv">recorded</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recorded</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A flag indicating whether the call should be recorded or not.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A call options instance with the call type and the recorded flag values provided as argument. The maximumDuration property will be set to the default value (0).</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(im)initWithCallType:duration:"></a>
+                    <a name="//apple_ref/swift/Method/init(callType:duration:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(im)initWithCallType:duration:">init(callType:<wbr>duration:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an instance setting the call type and the maximum duration flag to the values provided as arguments.</p>
+
+<p>The recorded flag will be set to false.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">initWithCallType</span><span class="p">:</span><span class="nv">duration</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">callType</span><span class="p">:</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt"><a href="../Enums/CallType.html">CallType</a></span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum duration of the call expressed in seconds. A value of zero means the call will last until all participants have left.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A call options instance with the call type and the maximum duration values provided as arguments. The recorded flag will be set to the default value (false).</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(im)initWithCallType:recorded:duration:"></a>
+                    <a name="//apple_ref/swift/Method/init(callType:recorded:duration:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(im)initWithCallType:recorded:duration:">init(callType:<wbr>recorded:<wbr>duration:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an instance setting the call type, the recorded flag and the maximum duration flag to the values provided as arguments.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">initWithCallType</span><span class="p">:</span><span class="nv">recorded</span><span class="p">:</span><span class="nv">duration</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">callType</span><span class="p">:</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt"><a href="../Enums/CallType.html">CallType</a></span><span class="p">,</span> <span class="nv">recorded</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recorded</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A flag indicating whether the call should be recorded or not.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum duration of the call expressed in seconds. A value of zero means the call will last until all participants have left.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A call options instance with the call type and the maximum duration values provided as arguments. The recorded flag will be set to the default value (false).</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Factory%20methods"></a>
+                <a name="//apple_ref/swift/Section/Factory methods" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Factory%20methods"></a>
+                  <h3 class="section-name"><span>Factory methods</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(cm)optionsWithCallType:"></a>
+                    <a name="//apple_ref/swift/Method/options(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(cm)optionsWithCallType:">options(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an option instance setting the call type to the value provided as argument.</p>
+
+<p>The recorded flag will be set to false.
+ The maximum duration value will be set to zero (call will last until all participants have left the call).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">optionsWithCallType</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">options</span><span class="p">(</span><span class="n">with</span> <span class="nv">callType</span><span class="p">:</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt"><a href="../Enums/CallType.html">CallType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt">CallOptions</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A call options instance with the call type provided as argument and the recorded flag and  maximumDuration properties set to default values.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(cm)optionsWithCallType:recorded:"></a>
+                    <a name="//apple_ref/swift/Method/options(with:recorded:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(cm)optionsWithCallType:recorded:">options(with:<wbr>recorded:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an option instance setting the call type and the recorded flag to the values provided as arguments.</p>
+
+<p>The maximum duration value will be set to zero (call will last until all participants have left the call).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">optionsWithCallType</span><span class="p">:</span><span class="nv">recorded</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">options</span><span class="p">(</span><span class="n">with</span> <span class="nv">callType</span><span class="p">:</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt"><a href="../Enums/CallType.html">CallType</a></span><span class="p">,</span> <span class="nv">recorded</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt">CallOptions</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recorded</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A flag indicating whether the call should be recorded or not.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A call options instance with the call type and the recorded flag values provided as argument. The maximumDuration property will be set to the default value (0).</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(cm)optionsWithCallType:duration:"></a>
+                    <a name="//apple_ref/swift/Method/options(with:duration:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(cm)optionsWithCallType:duration:">options(with:<wbr>duration:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an option instance setting the call type and the maximum duration flag to the values provided as arguments.</p>
+
+<p>The recorded flag will be set to false.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">optionsWithCallType</span><span class="p">:</span><span class="nv">duration</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">options</span><span class="p">(</span><span class="n">with</span> <span class="nv">callType</span><span class="p">:</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt"><a href="../Enums/CallType.html">CallType</a></span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt">CallOptions</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum duration of the call expressed in seconds. A value of zero means the call will last until all participants have left.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A call options instance with the call type and the maximum duration values provided as arguments. The recorded flag will be set to the default value (false).</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallOptions(cm)optionsWithCallType:recorded:duration:"></a>
+                    <a name="//apple_ref/swift/Method/options(with:recorded:duration:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallOptions(cm)optionsWithCallType:recorded:duration:">options(with:<wbr>recorded:<wbr>duration:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an option instance setting the call type, the recorded flag and the maximum duration flag to the values provided as arguments.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">optionsWithCallType</span><span class="p">:</span><span class="nv">recorded</span><span class="p">:</span><span class="nv">duration</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">options</span><span class="p">(</span><span class="n">with</span> <span class="nv">callType</span><span class="p">:</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt"><a href="../Enums/CallType.html">CallType</a></span><span class="p">,</span> <span class="nv">recorded</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bandyer</span><span class="o">.</span><span class="kt">CallOptions</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recorded</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A flag indicating whether the call should be recorded or not.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The maximum duration of the call expressed in seconds. A value of zero means the call will last until all participants have left.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A call options instance with the call type and the maximum duration values provided as arguments. The recorded flag will be set to the default value (false).</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="https://www.kaleyra.com/" target="_blank" rel="external noopener">Kaleyra S.p.a.</a>. All rights reserved. (Last updated: 2022-04-26)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
