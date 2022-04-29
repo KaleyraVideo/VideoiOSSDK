@@ -46,7 +46,7 @@ Kaleyra Video is an in-cloud collaborative solution for corporates, featuring a 
 
 ## Latest version
 
-2.9.0 version is the latest stable version.
+2.10.0 version is the latest stable version.
 
 ## Installation
 
