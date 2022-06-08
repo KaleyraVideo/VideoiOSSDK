@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CallKitConfiguration Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CallKitConfiguration" class="dashAnchor"></a>
+    <a title="CallKitConfiguration Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 3.0.1 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        CallKitConfiguration Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewController.html">BDKCallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BroadcastScreensharingToolConfiguration.html">BroadcastScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfiguration.html">CallKitConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfigurationBuilder.html">CallKitConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfigurationBuilderObjcAdapter.html">CallKitConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitProviderConfigurationBuilder.html">CallKitProviderConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitProviderConfigurationBuilderObjcAdapter.html">CallKitProviderConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallOptions.html">CallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfiguration.html">CallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfigurationBuilder.html">CallViewControllerConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfigurationBuilderObjcAdapter.html">CallViewControllerConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Bandyer@objc(cs)BDKChatNotification">ChatNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatToolConfiguration.html">ChatToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Config.html">Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfigBuilder.html">ConfigBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfigBuilderObjcAdapter.html">ConfigBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Bandyer@objc(cs)BDKFileShareNotification">FileShareNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FileshareToolConfiguration.html">FileshareToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HandleIncomingCallIntent.html">HandleIncomingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InAppScreensharingToolConfiguration.html">InAppScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JoinURLIntent.html">JoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenDownloadsIntent.html">OpenDownloadsIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Session.html">Session</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StartOutgoingCallIntent.html">StartOutgoingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Theme.html">Theme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfiguration.html">ToolsConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfigurationBuilder.html">ToolsConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfigurationBuilderObjcAdapter.html">ToolsConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserDetails.html">UserDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfiguration.html">VoIPPushConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfigurationBuilder.html">VoIPPushConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfigurationBuilderObjcAdapter.html">VoIPPushConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteboardToolConfiguration.html">WhiteboardToolConfiguration</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKEnvironmentProduction">BDKEnvironmentProduction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKEnvironmentSandbox">BDKEnvironmentSandbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionEurope">BDKRegionEurope</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionIndia">BDKRegionIndia</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BDKLogFlag.html">BDKLogFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKLogLevel.html">BDKLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallClientState.html">CallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallDeclineReason.html">CallDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallEndReason.html">CallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallParticipantState.html">CallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallRecordingState.html">CallRecordingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallRecordingType.html">CallRecordingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallState.html">CallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallType.html">CallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ChatClientState.html">ChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SpeakerHijackingStrategy.html">SpeakerHijackingStrategy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenProvider.html">AccessTokenProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenProviderObjc.html">AccessTokenProviderObjc</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallViewControllerDelegate.html">BDKCallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Call.html">Call</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallClient.html">CallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallClientObserver.html">CallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallObserver.html">CallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipant.html">CallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipants.html">CallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipantsObserver.html">CallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRecordingObserver.html">CallRecordingObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRegistry.html">CallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRegistryObserver.html">CallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatClient.html">ChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatClientObserver.html">ChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppChatNotificationTouchListener.html">InAppChatNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppFileShareNotificationTouchListener.html">InAppFileShareNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppNotificationsCoordinator.html">InAppNotificationsCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IncomingCallObserver.html">IncomingCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Intent.html">Intent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SessionObserver.html">SessionObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserDetailsProvider.html">UserDetailsProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKEnvironment.h@T@BDKEnvironment">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKRegion.h@T@BDKRegion">BDKRegion</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/PKPushCredentials.html">PKPushCredentials</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CallKitConfiguration</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">12.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKCallKitConfiguration</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">CallKitConfiguration</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>A value object holding the SDK CallKit integration configuration values.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallKitConfiguration(py)isEnabled"></a>
+                    <a name="//apple_ref/swift/Property/isEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallKitConfiguration(py)isEnabled">isEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A flag indicating whether CallKit integration should be enabled or disabled.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">let</span> <span class="nv">isEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallKitConfiguration(py)supportedHandleTypes"></a>
+                    <a name="//apple_ref/swift/Property/supportedHandleTypes" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallKitConfiguration(py)supportedHandleTypes">supportedHandleTypes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A set containing which <code>CXHandle.HandleType</code> your app supports.
+This property is suited for <code>Objective-c</code> code.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">supportedHandleTypes</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">Int</span><span class="o">&gt;</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Bandyer20CallKitConfigurationC16supportedHandlesShySo12CXHandleTypeVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/supportedHandles" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Bandyer20CallKitConfigurationC16supportedHandlesShySo12CXHandleTypeVGSgvp">supportedHandles</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A set containing which <code>CXHandle.HandleType</code> your app supports.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">supportedHandles</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">CXHandle</span><span class="o">.</span><span class="kt">HandleType</span><span class="o">&gt;</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallKitConfiguration(py)ringtoneSound"></a>
+                    <a name="//apple_ref/swift/Property/ringtoneSound" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallKitConfiguration(py)ringtoneSound">ringtoneSound</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The name of the sound resource in the app bundle to be used as ringtone when a call is received.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">ringtoneSound</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallKitConfiguration(py)iconData"></a>
+                    <a name="//apple_ref/swift/Property/iconData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallKitConfiguration(py)iconData">iconData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The PNG data for the icon image that will displayed in the native System UI for the button which takes the user from the system UI to
+your app.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">iconData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="https://www.kaleyra.com/" target="_blank" rel="external noopener">Kaleyra S.p.a.</a>. All rights reserved. (Last updated: 2022-06-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
