@@ -39,10 +39,11 @@ Kaleyra Video is an in-cloud collaborative solution for corporates, featuring a 
 - Filesharing
 - Screen device screensharing (iOS 12.0 and later only) 
 - Picture in picture
+- Live pointer
 
 ## Latest version
 
-3.0.1 version is the latest stable version.
+3.1.0 version is the latest stable version.
 
 ## Installation
 
