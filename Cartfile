@@ -4,4 +4,4 @@
 github "socketio/socket.io-client-swift" ~> 15.2
 
 # Bandyer SDK
-binary "https://static.bandyer.com/corporate/iOS/releases/carthage/Bandyer.json" ~> 3.1.0
+binary "https://static.bandyer.com/corporate/iOS/releases/carthage/Bandyer.json" ~> 3.1.1
