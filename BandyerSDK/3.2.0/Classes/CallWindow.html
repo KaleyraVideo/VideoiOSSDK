@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CallWindow Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CallWindow" class="dashAnchor"></a>
+    <a title="CallWindow Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 3.2.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        CallWindow Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BDKCallViewController.html">BDKCallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BroadcastScreensharingToolConfiguration.html">BroadcastScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfiguration.html">CallKitConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfigurationBuilder.html">CallKitConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfigurationBuilderObjcAdapter.html">CallKitConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitProviderConfigurationBuilder.html">CallKitProviderConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitProviderConfigurationBuilderObjcAdapter.html">CallKitProviderConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallOptions.html">CallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfiguration.html">CallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfigurationBuilder.html">CallViewControllerConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfigurationBuilderObjcAdapter.html">CallViewControllerConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Bandyer@objc(cs)BDKChatNotification">ChatNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatToolConfiguration.html">ChatToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Config.html">Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfigBuilder.html">ConfigBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfigBuilderObjcAdapter.html">ConfigBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Bandyer@objc(cs)BDKFileShareNotification">FileShareNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FileshareToolConfiguration.html">FileshareToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HandleIncomingCallIntent.html">HandleIncomingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InAppScreensharingToolConfiguration.html">InAppScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JoinURLIntent.html">JoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenDownloadsIntent.html">OpenDownloadsIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Session.html">Session</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StartOutgoingCallIntent.html">StartOutgoingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Theme.html">Theme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfiguration.html">ToolsConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfigurationBuilder.html">ToolsConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfigurationBuilderObjcAdapter.html">ToolsConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserDetails.html">UserDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfiguration.html">VoIPPushConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfigurationBuilder.html">VoIPPushConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfigurationBuilderObjcAdapter.html">VoIPPushConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteboardToolConfiguration.html">WhiteboardToolConfiguration</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKEnvironmentProduction">BDKEnvironmentProduction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKEnvironmentSandbox">BDKEnvironmentSandbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionEurope">BDKRegionEurope</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionIndia">BDKRegionIndia</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionUS">BDKRegionUS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BDKLogFlag.html">BDKLogFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BDKLogLevel.html">BDKLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallClientState.html">CallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallDeclineReason.html">CallDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallEndReason.html">CallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallParticipantState.html">CallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallRecordingState.html">CallRecordingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallRecordingType.html">CallRecordingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallState.html">CallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallType.html">CallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ChatClientState.html">ChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SpeakerHijackingStrategy.html">SpeakerHijackingStrategy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenProvider.html">AccessTokenProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenProviderObjc.html">AccessTokenProviderObjc</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BDKCallViewControllerDelegate.html">BDKCallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Call.html">Call</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallClient.html">CallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallClientObserver.html">CallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallObserver.html">CallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipant.html">CallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipants.html">CallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipantsObserver.html">CallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRecordingObserver.html">CallRecordingObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRegistry.html">CallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRegistryObserver.html">CallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatClient.html">ChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatClientObserver.html">ChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppChatNotificationTouchListener.html">InAppChatNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppFileShareNotificationTouchListener.html">InAppFileShareNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppNotificationsCoordinator.html">InAppNotificationsCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IncomingCallObserver.html">IncomingCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Intent.html">Intent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SessionObserver.html">SessionObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserDetailsProvider.html">UserDetailsProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKEnvironment.h@T@BDKEnvironment">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKRegion.h@T@BDKRegion">BDKRegion</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/PKPushCredentials.html">PKPushCredentials</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CallWindow</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">12.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKCallWindow</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">CallWindow</span> <span class="p">:</span> <span class="kt">UIWindow</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">CallWindow</span><span class="p">:</span> <span class="kt">CallViewControllerDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>A <code>UIWindow</code> subclass having a <code><a href="../Classes/BDKCallViewController.html">BDKCallViewController</a></code>instance as its rootViewController.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Weak%20singleton%20instance"></a>
+                <a name="//apple_ref/swift/Section/Weak singleton instance" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Weak%20singleton%20instance"></a>
+                  <h3 class="section-name"><span>Weak singleton instance</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(cpy)instance"></a>
+                    <a name="//apple_ref/swift/Variable/instance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(cpy)instance">instance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The window unique instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">weak</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">instance</span><span class="p">:</span> <span class="kt">CallWindow</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Delegate"></a>
+                <a name="//apple_ref/swift/Section/Delegate" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Delegate"></a>
+                  <h3 class="section-name"><span>Delegate</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(py)callDelegate"></a>
+                    <a name="//apple_ref/swift/Property/callDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(py)callDelegate">callDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The window&rsquo;s delegate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">callDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Current%20intent"></a>
+                <a name="//apple_ref/swift/Section/Current intent" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Current%20intent"></a>
+                  <h3 class="section-name"><span>Current intent</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(py)intent"></a>
+                    <a name="//apple_ref/swift/Property/intent" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(py)intent">intent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The intent used to start the <code><a href="../Classes/BDKCallViewController.html">BDKCallViewController</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">intent</span><span class="p">:</span> <span class="kt"><a href="../Protocols/Intent.html">Intent</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialization"></a>
+                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initialization"></a>
+                  <h3 class="section-name"><span>Initialization</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(im)init"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(im)init">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a <code>CallWindow</code> instance.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    Init the window only one at a time, otherwise a fatal error is thrown.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(im)initWithWindowScene:"></a>
+                    <a name="//apple_ref/swift/Method/init(windowScene:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(im)initWithWindowScene:">init(windowScene:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a <code>CallWindow</code> instance already associated with a given UIWindowScene instance,</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    Init the window only one at a time, otherwise a fatal error is thrown.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">13.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">override</span> <span class="nf">init</span><span class="p">(</span><span class="nv">windowScene</span><span class="p">:</span> <span class="kt">UIWindowScene</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>windowScene</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The UIWindowScene instance.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Presentation"></a>
+                <a name="//apple_ref/swift/Section/Presentation" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Presentation"></a>
+                  <h3 class="section-name"><span>Presentation</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(im)presentCallViewControllerFor:completion:"></a>
+                    <a name="//apple_ref/swift/Method/presentCallViewController(for:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(im)presentCallViewControllerFor:completion:">presentCallViewController(for:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Presents a <code><a href="../Classes/BDKCallViewController.html">BDKCallViewController</a></code> as its root view controller.
+ If there is already another active call being handled an error will be raised and reported in the completion block
+ provided as second argument.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">presentCallViewController</span><span class="p">(</span><span class="k">for</span> <span class="nv">intent</span><span class="p">:</span> <span class="kt"><a href="../Protocols/Intent.html">Intent</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>intent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The intent object to be handled by the receiver.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The completion called at the end of the method job. Returns no error if the presentation will start, otherwise returns an error of type <code>BDKCallPresentationError</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Dismissal"></a>
+                <a name="//apple_ref/swift/Section/Dismissal" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Dismissal"></a>
+                  <h3 class="section-name"><span>Dismissal</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(im)dismissCallViewControllerWithCompletion:"></a>
+                    <a name="//apple_ref/swift/Method/dismissCallViewController(completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(im)dismissCallViewControllerWithCompletion:">dismissCallViewController(completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Dismiss the <code><a href="../Classes/BDKCallViewController.html">BDKCallViewController</a></code> instance managed by this window animating the transition.
+The <code><a href="../Classes/BDKCallViewController.html">BDKCallViewController</a></code> instance managed by this window is retained by this window until
+the call the <code><a href="../Classes/BDKCallViewController.html">BDKCallViewController</a></code> represents has ended.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">dismissCallViewController</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The completion block called at the end of the dismiss animation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Configuration"></a>
+                <a name="//apple_ref/swift/Section/Configuration" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Configuration"></a>
+                  <h3 class="section-name"><span>Configuration</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(im)setConfiguration:"></a>
+                    <a name="//apple_ref/swift/Method/setConfiguration(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(im)setConfiguration:">setConfiguration(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the call view controller configuration to be used by the <code><a href="../Classes/BDKCallViewController.html">BDKCallViewController</a></code>instance managed by this window.</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    <p>The configuration argument provided is copied.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setConfiguration</span><span class="p">(</span><span class="n">_</span> <span class="nv">configuration</span><span class="p">:</span> <span class="kt"><a href="../Classes/CallViewControllerConfiguration.html">CallViewControllerConfiguration</a></span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>configuration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The call view controller configuration to be used by the <code><a href="../Classes/BDKCallViewController.html">BDKCallViewController</a></code>instance managed by this window.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/SiriKit%20intents%20handling"></a>
+                <a name="//apple_ref/swift/Section/SiriKit intents handling" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/SiriKit%20intents%20handling"></a>
+                  <h3 class="section-name"><span>SiriKit intents handling</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(im)handleINStartVideoCallIntent:"></a>
+                    <a name="//apple_ref/swift/Method/handle(startVideoCallIntent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(im)handleINStartVideoCallIntent:">handle(startVideoCallIntent:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handles a Siri INStartVideoCallIntent. This intent is going to be provided by the system when CallKit is enabled and the user
+ taps on the video button in the system call UI.
+ In order to handle the request on behalf of the user you must call this method with the INStartVideoCallIntent received in your AppDelegate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span><span class="p">,</span> <span class="nv">introduced</span><span class="p">:</span> <span class="mf">12.0</span><span class="p">,</span> <span class="nv">deprecated</span><span class="p">:</span> <span class="mf">13.0</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"handle(startVideoCallIntent:﹚ is deprecated. Please use handle(startCallIntent:﹚ instead"</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="nv">handleINStartVideoCallIntent</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">handle</span><span class="p">(</span><span class="n">startVideoCallIntent</span> <span class="nv">intent</span><span class="p">:</span> <span class="kt">INStartVideoCallIntent</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>intent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The INStartVideoCallIntent received in your AppDelegate.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallWindow(im)handleINStartCallIntent:"></a>
+                    <a name="//apple_ref/swift/Method/handle(startCallIntent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallWindow(im)handleINStartCallIntent:">handle(startCallIntent:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handles a Siri INStartCallIntent. This intent is going to be provided by the system when CallKit is enabled and the user
+ taps on the video button in the system call UI.
+ In order to handle the request on behalf of the user you must call this method with the INStartCallIntent received in your AppDelegate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">13.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="nv">handleINStartCallIntent</span><span class="p">:)</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">handle</span><span class="p">(</span><span class="n">startCallIntent</span> <span class="nv">intent</span><span class="p">:</span> <span class="kt">INStartCallIntent</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>intent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The INStartCallIntent received in your AppDelegate.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/CallViewControllerDelegate"></a>
+                <a name="//apple_ref/swift/Section/CallViewControllerDelegate" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/CallViewControllerDelegate"></a>
+                  <h3 class="section-name"><span>CallViewControllerDelegate</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Bandyer@objc(cs)BDKCallWindow(im)callViewController:openChatWith:"></a>
+                    <a name="//apple_ref/swift/Method/callViewController(_:openChatWith:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Bandyer@objc(cs)BDKCallWindow(im)callViewController:openChatWith:">callViewController(_:<wbr>openChatWith:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>: nodoc:</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">callViewController</span><span class="p">(</span><span class="n">_</span> <span class="nv">controller</span><span class="p">:</span> <span class="kt">CallViewController</span><span class="p">,</span> <span class="n">openChatWith</span> <span class="nv">participantId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Bandyer@objc(cs)BDKCallWindow(im)callViewControllerDidPressBack:"></a>
+                    <a name="//apple_ref/swift/Method/callViewControllerDidPressBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Bandyer@objc(cs)BDKCallWindow(im)callViewControllerDidPressBack:">callViewControllerDidPressBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>: nodoc:</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">callViewControllerDidPressBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">controller</span><span class="p">:</span> <span class="kt">CallViewController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Bandyer@objc(cs)BDKCallWindow(im)callViewControllerDidFinish:"></a>
+                    <a name="//apple_ref/swift/Method/callViewControllerDidFinish(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Bandyer@objc(cs)BDKCallWindow(im)callViewControllerDidFinish:">callViewControllerDidFinish(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>: nodoc:</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">callViewControllerDidFinish</span><span class="p">(</span><span class="n">_</span> <span class="nv">controller</span><span class="p">:</span> <span class="kt">CallViewController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Bandyer@objc(cs)BDKCallWindow(im)shouldShowFeedback"></a>
+                    <a name="//apple_ref/swift/Method/shouldShowFeedback()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Bandyer@objc(cs)BDKCallWindow(im)shouldShowFeedback">shouldShowFeedback()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>: nodoc:</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">shouldShowFeedback</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="https://www.kaleyra.com/" target="_blank" rel="external noopener">Kaleyra S.p.a.</a>. All rights reserved. (Last updated: 2022-08-01)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
