@@ -1,7 +1,7 @@
 ## Dependencies
 
 # Socket.IO-Client-Swift
-github "socketio/socket.io-client-swift" ~> 15.2
+github "socketio/socket.io-client-swift" ~> 16.0
 
 # Bandyer SDK
-binary "https://static.bandyer.com/corporate/iOS/releases/carthage/Bandyer.json" ~> 3.2.0
+binary "https://static.bandyer.com/corporate/iOS/releases/carthage/Bandyer.json" ~> 3.3.0
