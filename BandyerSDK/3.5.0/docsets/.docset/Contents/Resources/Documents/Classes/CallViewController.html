@@ -320,12 +320,6 @@
                 <a href="../Protocols/SessionObserver.html">SessionObserver</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/SignificantTimeChangeListener.html">SignificantTimeChangeListener</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols/SignificantTimeChangeObservable.html">SignificantTimeChangeObservable</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Protocols/UserDetailsProvider.html">UserDetailsProvider</a>
               </li>
             </ul>
@@ -339,12 +333,19 @@
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKCallViewController</span><span class="p">)</span>
+                  <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">12.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKCallViewController</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">CallViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>A view controller showing the user interface for the intent provided.
+You should present this view controller modally.</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    You must provide an intent before the view controller&rsquo;s view is loaded.
+
+</div>
 
           </section>
           <section class="section task-group-section">
@@ -381,207 +382,6 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
 <span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CallViewControllerDelegate.html">CallViewControllerDelegate</a></span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewController(py)supportedInterfaceOrientations"></a>
-                    <a name="//apple_ref/swift/Property/supportedInterfaceOrientations" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewController(py)supportedInterfaceOrientations">supportedInterfaceOrientations</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="k">var</span> <span class="nv">supportedInterfaceOrientations</span><span class="p">:</span> <span class="kt">UIInterfaceOrientationMask</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Init"></a>
-                <a name="//apple_ref/swift/Section/Init" class="dashAnchor"></a>
-                <div class="section-name-container">
-                  <a class="section-name-link" href="#/Init"></a>
-                  <h3 class="section-name"><span>Init</span>
-</h3>
-                </div>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewController(im)init"></a>
-                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewController(im)init">init()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/View%20Lifecycle"></a>
-                <a name="//apple_ref/swift/Section/View Lifecycle" class="dashAnchor"></a>
-                <div class="section-name-container">
-                  <a class="section-name-link" href="#/View%20Lifecycle"></a>
-                  <h3 class="section-name"><span>View Lifecycle</span>
-</h3>
-                </div>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewController(im)viewDidLoad"></a>
-                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewController(im)viewDidLoad">viewDidLoad()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewController(im)viewWillAppear:"></a>
-                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewController(im)viewWillAppear:">viewWillAppear(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewController(im)viewDidDisappear:"></a>
-                    <a name="//apple_ref/swift/Method/viewDidDisappear(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewController(im)viewDidDisappear:">viewDidDisappear(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Whiteboard"></a>
-                <a name="//apple_ref/swift/Section/Whiteboard" class="dashAnchor"></a>
-                <div class="section-name-container">
-                  <a class="section-name-link" href="#/Whiteboard"></a>
-                  <h3 class="section-name"><span>Whiteboard</span>
-</h3>
-                </div>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewController(im)overrideTraitCollectionForChildViewController:"></a>
-                    <a name="//apple_ref/swift/Method/overrideTraitCollection(forChild:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewController(im)overrideTraitCollectionForChildViewController:">overrideTraitCollection(forChild:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">overrideTraitCollection</span><span class="p">(</span><span class="n">forChild</span> <span class="nv">childViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UITraitCollection</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -814,7 +614,7 @@ the video button in the system call UI. In order to handle the request from the 
         </section>
         <section id="footer">
           <p>&copy; 2023 <a class="link" href="https://www.kaleyra.com/" target="_blank" rel="external noopener">Kaleyra S.p.a.</a>. All rights reserved. (Last updated: 2023-02-14)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
