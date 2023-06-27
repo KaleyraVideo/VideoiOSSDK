@@ -45,7 +45,7 @@ Kaleyra Video is an in-cloud collaborative solution for corporates, featuring a 
 
 ## Latest version
 
-3.6.3 version is the latest stable version.
+3.7.0 version is the latest stable version.
 
 ## Installation
 
@@ -95,7 +95,7 @@ You can find several sample apps showing you the Kaleyra Video SDK capabilities 
 
 ## Looking for other platforms?
 
-If you're looking for the Android platform head over to our [Android repository][android] to get the latest SDK version. We also ship a Cordova plugin for Hybrid applications, head over to our [Cordova repository][cordova] to get our latest plugin version. Even more, we ship a Xamarin binding suitable for Xamarin Native or Xamarin Forms apps, you can find it using NuGet, head over to our [Xamarin binding repository][xamarin] for more information. 
+If you're looking for the Android platform head over to our [Android repository][android] to get the latest SDK version. We also ship a Cordova plugin for Hybrid applications, head over to our [Cordova repository][cordova] to get our latest plugin version. Even more, we ship a React Native Module you can find it using NPM, head over to our [react module repository][react] for more information. 
 
 ## Support
 
@@ -110,6 +110,8 @@ If you prefer commercial support, please contact us sending an email at: [video@
 - [Starscream](https://github.com/daltoniam/starscream)
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
 - [IGListKit](https://github.com/Instagram/IGListKit)
+- [PromiseKit](https://github.com/mxcl/PromiseKit)
+- [OpenCombine](https://github.com/OpenCombine/OpenCombine)
 
 [cocoapods]: https://cocoapods.org/
 [cocoapods-getting-started]: https://guides.cocoapods.org/using/getting-started.html
@@ -123,5 +125,5 @@ If you prefer commercial support, please contact us sending an email at: [video@
 [swift-samples]: https://github.com/Bandyer/Bandyer-iOS-SDK-Samples-Swift
 [android]: https://github.com/Bandyer/Bandyer-Android-SDK
 [cordova]: https://github.com/Bandyer/Bandyer-Cordova-Plugin
-[xamarin]: https://github.com/Bandyer/BandyerSDK-Xamarin-Bindings
+[react]: https://github.com/KaleyraVideo/VideoReactNativeModule
 [issues]: https://github.com/Bandyer/Bandyer-iOS-SDK/issues
