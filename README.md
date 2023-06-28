@@ -49,8 +49,13 @@ Kaleyra Video is an in-cloud collaborative solution for corporates, featuring a 
 
 ## Installation
 
-Several installation methods are supported. [CocoaPods][cocoapods] is the most straightforward way to add the SDK to your project. If you're new to CocoaPods, their website contains lots of helpful [documentation][cocoapods-getting-started]. [Carthage][carthage] is also supported, for futher information head over to our [installation guide][installation-guide].
+Several installation methods are supported. [CocoaPods][cocoapods] and [Swift package manager][spm] are the most straightforward way to add the SDK to your project. If you're new to CocoaPods, their website contains lots of helpful [documentation][cocoapods-getting-started]. [Carthage][carthage] is also supported, for futher information head over to our [installation guide][installation-guide].
 Even though the SDK has changed name from **Bandyer** to **Kaleyra Video** the SDK module name is still named **Bandyer**.
+
+### SPM
+
+Starting from 3.7.0 version the SDK supports Swift package manager. 
+In order to add the package to your app, select add package in Xcode and use this repository URL from the Xcode user interface
 
 ### Cocoapods
 
@@ -113,6 +118,7 @@ If you prefer commercial support, please contact us sending an email at: [video@
 - [PromiseKit](https://github.com/mxcl/PromiseKit)
 - [OpenCombine](https://github.com/OpenCombine/OpenCombine)
 
+[spm]: https://www.swift.org/package-manager/
 [cocoapods]: https://cocoapods.org/
 [cocoapods-getting-started]: https://guides.cocoapods.org/using/getting-started.html
 [carthage]: https://github.com/Carthage/Carthage
