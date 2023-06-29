@@ -1,0 +1,12 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/bandyer/gitlab_runner_cache/arm64/builds/3ERcyyy7/0/Mobile/Bandyer-iOS/Source/SDK/UI/Call/CallViewController.swift",
+      "line": 394,
+      "symbol": "CallViewController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/bandyer/gitlab_runner_cache/arm64/builds/3ERcyyy7/0/Mobile/Bandyer-iOS"
+}
