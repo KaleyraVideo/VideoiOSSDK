@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CallViewControllerConfigurationBuilderObjcAdapter Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CallViewControllerConfigurationBuilderObjcAdapter" class="dashAnchor"></a>
+    <a title="CallViewControllerConfigurationBuilderObjcAdapter Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 3.10.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/Bandyer/Bandyer-iOS-SDK"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        CallViewControllerConfigurationBuilderObjcAdapter Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKEnvironmentProduction">BDKEnvironmentProduction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKEnvironmentSandbox">BDKEnvironmentSandbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionEurope">BDKRegionEurope</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionIndia">BDKRegionIndia</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@BDKRegionUS">BDKRegionUS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BDKLogger.html">BDKLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallClientState.html">CallClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallDeclineReason.html">CallDeclineReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallEndReason.html">CallEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallParticipantState.html">CallParticipantState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallRecordingState.html">CallRecordingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallRecordingType.html">CallRecordingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallState.html">CallState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallType.html">CallType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CallViewControllerPresentationMode.html">CallViewControllerPresentationMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CameraPosition.html">CameraPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ChatClientState.html">ChatClientState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogFlag.html">LogFlag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogLevel.html">LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SpeakerHijackingStrategy.html">SpeakerHijackingStrategy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKEnvironment.h@T@BDKEnvironment">BDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:BDKRegion.h@T@BDKRegion">BDKRegion</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BandyerSDK.html">BandyerSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BroadcastScreensharingToolConfiguration.html">BroadcastScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfiguration.html">CallKitConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfigurationBuilder.html">CallKitConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitConfigurationBuilderObjcAdapter.html">CallKitConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitProviderConfigurationBuilder.html">CallKitProviderConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallKitProviderConfigurationBuilderObjcAdapter.html">CallKitProviderConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallOptions.html">CallOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewController.html">CallViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfiguration.html">CallViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfigurationBuilder.html">CallViewControllerConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallViewControllerConfigurationBuilderObjcAdapter.html">CallViewControllerConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CallWindow.html">CallWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraConfiguration.html">CameraConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraConfigurationBuilder.html">CameraConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraConfigurationBuilderObjcAdapter.html">CameraConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewController.html">ChannelViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChannelViewControllerConfiguration.html">ChannelViewControllerConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Bandyer@objc(cs)BDKChatNotification">ChatNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatToolConfiguration.html">ChatToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Config.html">Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfigBuilder.html">ConfigBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConfigBuilderObjcAdapter.html">ConfigBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Bandyer@objc(cs)BDKFileShareNotification">FileShareNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FileshareToolConfiguration.html">FileshareToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HandleIncomingCallIntent.html">HandleIncomingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InAppScreensharingToolConfiguration.html">InAppScreensharingToolConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JoinURLIntent.html">JoinURLIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenChatIntent.html">OpenChatIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OpenDownloadsIntent.html">OpenDownloadsIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Session.html">Session</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StartOutgoingCallIntent.html">StartOutgoingCallIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Theme.html">Theme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfiguration.html">ToolsConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfigurationBuilder.html">ToolsConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToolsConfigurationBuilderObjcAdapter.html">ToolsConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserDetails.html">UserDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfiguration.html">VoIPPushConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfigurationBuilder.html">VoIPPushConfigurationBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoIPPushConfigurationBuilderObjcAdapter.html">VoIPPushConfigurationBuilderObjcAdapter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteboardToolConfiguration.html">WhiteboardToolConfiguration</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/PKPushCredentials.html">PKPushCredentials</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenProvider.html">AccessTokenProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessTokenProviderObjc.html">AccessTokenProviderObjc</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Call.html">Call</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallClient.html">CallClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallClientObserver.html">CallClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallObserver.html">CallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipant.html">CallParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipants.html">CallParticipants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallParticipantsObserver.html">CallParticipantsObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRecordingObserver.html">CallRecordingObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRegistry.html">CallRegistry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallRegistryObserver.html">CallRegistryObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallViewControllerDelegate.html">CallViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CallWindowDelegate.html">CallWindowDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChannelViewControllerDelegate.html">ChannelViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatClient.html">ChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatClientObserver.html">ChatClientObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppChatNotificationTouchListener.html">InAppChatNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppFileShareNotificationTouchListener.html">InAppFileShareNotificationTouchListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppNotificationsCoordinator.html">InAppNotificationsCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IncomingCallObserver.html">IncomingCallObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Intent.html">Intent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SessionObserver.html">SessionObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserDetailsProvider.html">UserDetailsProvider</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CallViewControllerConfigurationBuilderObjcAdapter</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">12.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="kt">BDKCallViewControllerConfigurationBuilder</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>A builder that constructs <code><a href="../Classes/CallViewControllerConfiguration.html">CallViewControllerConfiguration</a></code> objects.</p>
+<pre class="highlight plaintext"><code> BDKTheme * theme = ...;
+ NSBundle *bundle = ...;
+
+ BDKCallViewControllerConfiguration *config = BDKCallViewControllerConfigurationBuilder
+                                                                              .create()
+                                                                              .withCallTheme(theme)
+                                                                              .withFileSharingTheme(theme)
+                                                                              .withWhiteboardTheme(theme)
+                                                                              .withWhiteboardTextEditorTheme(theme)
+                                                                              .withFeedbackEnabledUsingThemeAndAutoDismissDelay(theme, 5)
+                                                                              .withCustomLocalizationsUsingBundleAndTableName(bundle, @"CallUI")
+                                                                              .build();
+</code></pre>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    This class is meant to be used by <code>Objective-c</code> code. If your app is written in <code>Swift</code> please use the <code><a href="../Classes/CallViewControllerConfigurationBuilder.html">CallViewControllerConfigurationBuilder</a></code> instead.
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withCallInfoTitleFormatter"></a>
+                    <a name="//apple_ref/swift/Property/withCallInfoTitleFormatter" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withCallInfoTitleFormatter">withCallInfoTitleFormatter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to specify the formatter used to format the callees or caller information in the call UI.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">deprecated</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"Use withFormatter instead"</span><span class="p">)</span>
+<span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withCallInfoTitleFormatter</span><span class="p">:</span> <span class="p">(</span><span class="kt">Formatter</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFormatter"></a>
+                    <a name="//apple_ref/swift/Property/withFormatter" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFormatter">withFormatter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to specify the formatter used to format the callees or caller information in the call UI.</p>
+<div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    3.5.0
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withFormatter</span><span class="p">:</span> <span class="p">(</span><span class="kt">Formatter</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFakeCapturerFileURL"></a>
+                    <a name="//apple_ref/swift/Property/withFakeCapturerFileURL" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFakeCapturerFileURL">withFakeCapturerFileURL</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to specify the URL for the mp4 video simulating a camera while running in the iOS Simulator.</p>
+
+<p>iOS Simulators lack support for camera, when testing on a simulator you can provide a fake video that
+ will be sent to the call participants as of a camera stream.
+ The block expects the URL of the mp4 file used when running the application in the simulator.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withFakeCapturerFileURL</span><span class="p">:</span> <span class="p">(</span><span class="kt">URL</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withCallTheme"></a>
+                    <a name="//apple_ref/swift/Property/withCallTheme" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withCallTheme">withCallTheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to specify the theme instance that is going to be used by <code><a href="../Classes/CallViewController.html">CallViewController</a></code> when presenting the Call UI.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withCallTheme</span><span class="p">:</span> <span class="p">(</span><span class="kt"><a href="../Classes/Theme.html">Theme</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFileSharingTheme"></a>
+                    <a name="//apple_ref/swift/Property/withFileSharingTheme" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFileSharingTheme">withFileSharingTheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to specify the theme instance that is going to be used  when presenting the <strong>file sharing</strong> UI.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withFileSharingTheme</span><span class="p">:</span> <span class="p">(</span><span class="kt"><a href="../Classes/Theme.html">Theme</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withWhiteboardTheme"></a>
+                    <a name="//apple_ref/swift/Property/withWhiteboardTheme" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withWhiteboardTheme">withWhiteboardTheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to specify the theme instance that is going to be used  when presenting the <strong>whiteboard</strong> UI.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withWhiteboardTheme</span><span class="p">:</span> <span class="p">(</span><span class="kt"><a href="../Classes/Theme.html">Theme</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withWhiteboardTextEditorTheme"></a>
+                    <a name="//apple_ref/swift/Property/withWhiteboardTextEditorTheme" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withWhiteboardTextEditorTheme">withWhiteboardTextEditorTheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to specify the theme instance that is going to be used  when presenting the <strong>whiteboard text editor</strong> UI.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withWhiteboardTextEditorTheme</span><span class="p">:</span> <span class="p">(</span><span class="kt"><a href="../Classes/Theme.html">Theme</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFeedbackEnabled"></a>
+                    <a name="//apple_ref/swift/Property/withFeedbackEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFeedbackEnabled">withFeedbackEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to enable the <strong>call feedback</strong> UI at the end of the call.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withFeedbackEnabled</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFeedbackEnabledUsingTheme"></a>
+                    <a name="//apple_ref/swift/Property/withFeedbackEnabledUsingTheme" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFeedbackEnabledUsingTheme">withFeedbackEnabledUsingTheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to enable the <strong>call feedback</strong> UI at the end of the call.</p>
+
+<p>The block expects a <code><a href="../Classes/Theme.html">Theme</a></code> instance as parameter used to customise the feedback UI.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withFeedbackEnabledUsingTheme</span><span class="p">:</span> <span class="p">(</span><span class="kt"><a href="../Classes/Theme.html">Theme</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFeedbackEnabledUsingAutoDismissDelay"></a>
+                    <a name="//apple_ref/swift/Property/withFeedbackEnabledUsingAutoDismissDelay" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFeedbackEnabledUsingAutoDismissDelay">withFeedbackEnabledUsingAutoDismissDelay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to enable the <strong>call feedback</strong> UI at the end of the call.</p>
+
+<p>The block expects the delay in seconds after which the feedback UI is automatically dismissed as parameter.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withFeedbackEnabledUsingAutoDismissDelay</span><span class="p">:</span> <span class="p">(</span><span class="kt">TimeInterval</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFeedbackEnabledUsingThemeAndAutoDismissDelay"></a>
+                    <a name="//apple_ref/swift/Property/withFeedbackEnabledUsingThemeAndAutoDismissDelay" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withFeedbackEnabledUsingThemeAndAutoDismissDelay">withFeedbackEnabledUsingThemeAndAutoDismissDelay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to enable the <strong>call feedback</strong> UI at the end of the call.</p>
+
+<p>The block expects a <code><a href="../Classes/Theme.html">Theme</a></code> instance as first parameter used to customise the feedback UI.
+ The block expects the delay in seconds after which the feedback UI is automatically dismissed as second parameter.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withFeedbackEnabledUsingThemeAndAutoDismissDelay</span><span class="p">:</span> <span class="p">(</span><span class="kt"><a href="../Classes/Theme.html">Theme</a></span><span class="p">,</span> <span class="kt">TimeInterval</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withCustomLocalizationsUsingBundle"></a>
+                    <a name="//apple_ref/swift/Property/withCustomLocalizationsUsingBundle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withCustomLocalizationsUsingBundle">withCustomLocalizationsUsingBundle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to override the <code>Bundle</code> and the filename from which localisations strings are retrieved.</p>
+
+<p>The block expects the <code>Bundle</code> containing the table’s strings file you want to use.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withCustomLocalizationsUsingBundle</span><span class="p">:</span> <span class="p">(</span><span class="kt">Bundle</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withCustomLocalizationsUsingBundleAndTableName"></a>
+                    <a name="//apple_ref/swift/Property/withCustomLocalizationsUsingBundleAndTableName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withCustomLocalizationsUsingBundleAndTableName">withCustomLocalizationsUsingBundleAndTableName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this block when you want to override the <code>Bundle</code> and the filename from which localisations strings are retrieved.</p>
+
+<p>The block expects the <code>Bundle</code> containing the table’s strings file you want to use as first parameter.
+ The block expects the filename from which localisable strings should be retrieved from as second parameter.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withCustomLocalizationsUsingBundleAndTableName</span><span class="p">:</span> <span class="p">(</span><span class="kt">Bundle</span><span class="p">,</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withRingingUIEnabled"></a>
+                    <a name="//apple_ref/swift/Property/withRingingUIEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withRingingUIEnabled">withRingingUIEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this method when you want to enable the <strong>ringing UI</strong> on an incoming call.</p>
+
+<p>Calling this method will make the ringing UI visible on an incoming call.
+ If CallKit is not enabled calling this method is unnecessary because the ringing UI will be showed anyway.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withRingingUIEnabled</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self after enabling ringing UI showing.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withPresentationModePiP"></a>
+                    <a name="//apple_ref/swift/Property/withPresentationModePiP" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)withPresentationModePiP">withPresentationModePiP</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this method when you want to  the <code><a href="../Classes/CallViewController.html">CallViewController</a></code> to be presented in <code>Picture in picture</code> mode.</p>
+<div class="aside aside-since">
+    <p class="aside-title">Since</p>
+    3.7.0
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">withPresentationModePiP</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self after changing <code><a href="../Classes/CallViewController.html">CallViewController</a></code> presentation mode to <code><a href="../Enums/CallViewControllerPresentationMode.html#/c:@M@Bandyer@E@BDKCallViewControllerPresentationMode@BDKCallViewControllerPresentationModePip">CallViewControllerPresentationMode.pip</a></code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(cpy)create"></a>
+                    <a name="//apple_ref/swift/Variable/create" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(cpy)create">create</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates and returns an instance of <code>BDKCallViewControllerConfigurationBuilder</code> class.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">create</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CallViewControllerConfigurationBuilderObjcAdapter</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)build"></a>
+                    <a name="//apple_ref/swift/Property/build" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Bandyer@objc(cs)BDKCallViewControllerConfigurationBuilder(py)build">build</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates and returns an instance of <code><a href="../Classes/CallViewControllerConfiguration.html">CallViewControllerConfiguration</a></code> class.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">build</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/CallViewControllerConfiguration.html">CallViewControllerConfiguration</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2023 <a class="link" href="https://www.kaleyra.com/" target="_blank" rel="external noopener">Kaleyra S.p.a.</a>. All rights reserved. (Last updated: 2023-11-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
