@@ -3,8 +3,8 @@
 import PackageDescription
 
 let sdkName = "Bandyer"
-let sdkVersion = "3.10.2"
-let sdkChecksum = "93b9514cd558e3ac6cb3f6f133a3d9de391d0cc0d57ed26002547fe30f829423"
+let sdkVersion = "3.11.0"
+let sdkChecksum = "764d8ca7ca14da2bdf3f9870f776798d3de7fac4e87349f9b0950cb87db3571f"
 
 let rtcName = "WebRTC"
 let rtcVersion = "100.2.36026"
