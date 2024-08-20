@@ -126,8 +126,8 @@ If you prefer commercial support, please contact us sending an email at: [video@
 [installation-guide]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Installation
 [kaleyra-website]: https://www.kaleyra.com/
 [wiki]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki
-[latest-doc]: https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/latest/index.html
-[stable-doc]: https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/stable/index.html
+[latest-doc]: https://bandyer.github.io/Bandyer-iOS-SDK/BandyerSDK/latest/index.html
+[stable-doc]: https://bandyer.github.io/Bandyer-iOS-SDK/BandyerSDK/stable/index.html
 [objective-c-samples]: https://github.com/Bandyer/Bandyer-iOS-SDK-Samples
 [swift-samples]: https://github.com/Bandyer/Bandyer-iOS-SDK-Samples-Swift
 [android]: https://github.com/Bandyer/Bandyer-Android-SDK
