@@ -1,4 +1,4 @@
-# Bandyer iOS SDK - (now Kaleyra Video)
+# Video iOS SDK
 
 <p align="center">
 	<img src="img/logo.png" alt="Kaleyra Logo" title="Kaleyra Video" />
