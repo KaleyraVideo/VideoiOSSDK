@@ -42,7 +42,7 @@ Kaleyra Video is an in-cloud collaborative solution for corporates, featuring a 
 - Live pointer
 - Remote mute by admin
 - Remote kick by admin
-- Supported languages: English 🇬🇧, Italian 🇮🇹, Spanish 🇪🇸
+- Supported languages: English 🇬🇧, Italian 🇮🇹, Spanish 🇪🇸, Portuguese 🇵🇹
   
 ## Latest version
 
