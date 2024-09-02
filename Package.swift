@@ -7,6 +7,7 @@ let sdkVersion = "4.0.0-alpha.1"
 let sdkChecksum = "95742497d88b597d3f4bd3b394c24661b7c88267903146c77d58226a9d8268cf"
 
 let rtcName = "WebRTC"
+let rtcVersion: Version = "124.0.0"
 let rtcChecksum = "2e9f011ed68781ec238c73b5515eaae4d5b33b4d92f60940c9abe72759cfc646"
 
 let package = Package(
@@ -26,7 +27,7 @@ let package = Package(
             checksum: sdkChecksum),
         .binaryTarget(
             name: rtcName,
-            url: "https://github.com/KaleyraVideo/WebRTC/releases/download/124.0.0/WebRTC-M124.xcframework.zip",
+            url: "https://github.com/KaleyraVideo/WebRTC/releases/download/\(rtcVersion)/WebRTC-M\(rtcVersion.major).xcframework.zip",
             checksum: rtcChecksum)
     ]
 )
