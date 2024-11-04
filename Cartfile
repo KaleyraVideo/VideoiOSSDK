@@ -1,4 +1,4 @@
 ## Dependencies
 
 # Bandyer SDK
-binary "https://static.bandyer.com/corporate/iOS/releases/carthage/Bandyer.json" ~>             4.0.0-alpha.1-alpha.1-alpha.1
+binary "https://static.bandyer.com/corporate/iOS/releases/carthage/Bandyer.json" ~>              4.0.0-beta.1-alpha.1-alpha.1-alpha.1
