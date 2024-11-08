@@ -3,8 +3,8 @@
 import PackageDescription
 
 let sdkName = "KaleyraVideoSDK"
-let sdkVersion = "4.0.0-beta.1"
-let sdkChecksum = "656af3142b5adee182c7cfdffd45f925231f31e3df7756ba870ec99a34f62b83"
+let sdkVersion = "4.0.0"
+let sdkChecksum = "a4e18b19301d18293fe2f17364538bfee82bbf7e0e58b318c70c4260b6a3efad"
 
 let rtcName = "WebRTC"
 let rtcVersion: Version = "124.0.0"
