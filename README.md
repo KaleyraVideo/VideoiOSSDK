@@ -5,7 +5,6 @@
 </p>
 
 [![Cocoapods compatible](https://img.shields.io/cocoapods/v/Bandyer)](https://cocoapods.org/pods/Bandyer)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/latest/index.html)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/Kaleyra_)
 
@@ -50,8 +49,7 @@ Kaleyra Video is an in-cloud collaborative solution for corporates, featuring a 
 
 ## Installation
 
-Several installation methods are supported. [CocoaPods][cocoapods] and [Swift package manager][spm] are the most straightforward way to add the SDK to your project. If you're new to CocoaPods, their website contains lots of helpful [documentation][cocoapods-getting-started]. [Carthage][carthage] is also supported, for futher information head over to our [installation guide][installation-guide].
-Even though the SDK has changed name from **Bandyer** to **Kaleyra Video** the SDK module name is still named **Bandyer**.
+Several installation methods are supported. [CocoaPods][cocoapods] and [Swift package manager][spm] are the most straightforward way to add the SDK to your project. If you're new to CocoaPods, their website contains lots of helpful [documentation][cocoapods-getting-started]. For futher information head over to our [installation guide][installation-guide].
 
 ### SPM
 
@@ -69,11 +67,11 @@ $ gem install cocoapods
 To integrate the SDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-platform :ios, '10.0'
+platform :ios, '15.0'
 use_frameworks!
 
 target '<YOUR_TARGET_NAME>' do
-    pod 'Bandyer'
+    pod 'KaleyraVideoSDK'
 end
 ```
 
@@ -94,14 +92,16 @@ You can find all the code guides in our [wiki page][wiki].
 
 ## Sample apps
 
-You can find several sample apps showing you the Kaleyra Video SDK capabilities and features at the links below:
+You can find a sample app showing you the Kaleyra Video SDK capabilities and features at the link below:
 
-- [Objective-C samples][objective-c-samples]
 - [Swift samples][swift-samples]
 
 ## Looking for other platforms?
 
-If you're looking for the Android platform head over to our [Android repository][android] to get the latest SDK version. We also ship a Cordova plugin for Hybrid applications, head over to our [Cordova repository][cordova] to get our latest plugin version. Even more, we ship a React Native Module you can find it using NPM, head over to our [react module repository][react] for more information. 
+- [Android][android]
+- [Cordova][cordova]
+- [React Native][react]
+- [Flutter][flutter]
 
 ## Support
 
@@ -115,22 +115,19 @@ If you prefer commercial support, please contact us sending an email at: [video@
 - [Socket.IO-Client-Swift](https://github.com/socketio/socket.io-client-swift)
 - [Starscream](https://github.com/daltoniam/starscream)
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
-- [IGListKit](https://github.com/Instagram/IGListKit)
 - [PromiseKit](https://github.com/mxcl/PromiseKit)
-- [OpenCombine](https://github.com/OpenCombine/OpenCombine)
 
 [spm]: https://www.swift.org/package-manager/
 [cocoapods]: https://cocoapods.org/
 [cocoapods-getting-started]: https://guides.cocoapods.org/using/getting-started.html
-[carthage]: https://github.com/Carthage/Carthage
-[installation-guide]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki/Installation
+[installation-guide]: https://github.com/KaleyraVideo/VideoiOSSDK/wiki/Installation
 [kaleyra-website]: https://www.kaleyra.com/
-[wiki]: https://github.com/Bandyer/Bandyer-iOS-SDK/wiki
+[wiki]: https://github.com/KaleyraVideo/VideoiOSSDK/wiki
 [latest-doc]: https://kaleyravideo.github.io/VideoiOSSDK/BandyerSDK/latest/index.html
 [stable-doc]: https://kaleyravideo.github.io/VideoiOSSDK/BandyerSDK/stable/index.html
-[objective-c-samples]: https://github.com/Bandyer/Bandyer-iOS-SDK-Samples
-[swift-samples]: https://github.com/Bandyer/Bandyer-iOS-SDK-Samples-Swift
-[android]: https://github.com/Bandyer/Bandyer-Android-SDK
-[cordova]: https://github.com/Bandyer/Bandyer-Cordova-Plugin
+[swift-samples]: https://github.com/KaleyraVideo/Video-iOS-SDK-Samples
+[android]: https://github.com/KaleyraVideo/VideoAndroidSDK
+[cordova]: https://github.com/KaleyraVideo/VideoCordovaPlugin
 [react]: https://github.com/KaleyraVideo/VideoReactNativeModule
-[issues]: https://github.com/Bandyer/Bandyer-iOS-SDK/issues
+[flutter]: https://github.com/KaleyraVideo/VideoFlutterPlugin
+[issues]: https://github.com/KaleyraVideo/VideoiOSSDK/issues
