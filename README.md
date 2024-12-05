@@ -4,7 +4,7 @@
 	<img src="img/logo.png" alt="Kaleyra Logo" title="Kaleyra Video" />
 </p>
 
-[![Cocoapods compatible](https://img.shields.io/cocoapods/v/Bandyer)](https://cocoapods.org/pods/Bandyer)
+[![Cocoapods compatible](https://img.shields.io/cocoapods/v/KaleyraVideoSDK)](https://cocoapods.org/pods/KaleyraVideoSDK)
 [![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.bandyer.com/Bandyer-iOS-SDK/BandyerSDK/latest/index.html)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/Kaleyra_)
 
@@ -45,7 +45,7 @@ Kaleyra Video is an in-cloud collaborative solution for corporates, featuring a 
   
 ## Latest version
 
-4.0.0 is the latest stable version.
+4.0.1 is the latest stable version.
 
 ## Installation
 
